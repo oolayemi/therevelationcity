@@ -82,6 +82,16 @@
       animation: zoom 0.6s;
     }
 
+    .progress {
+        position:relative; width:100%; border: 1px solid #7F98B2; padding: 1px; border-radius: 3px;
+    }
+    .bar {
+        background-color: #B4F5B4; width:0%; height:25px; border-radius: 3px;
+    }
+    .percent {
+        position:absolute; display:inline-block; top:3px; left:48%; color: #7F98B2;
+    }
+
     @keyframes zoom {
       from {
         transform: scale(0)
@@ -188,7 +198,11 @@
               <input type="text" name="location" id="location" class="form-control mt-2" required placeholder="Enter location">
               <input type="text" name="address" id="address" class="form-control mt-2" required placeholder="Enter address">
               <textarea name="description" id="description" class="form-control mt-2" cols="30" rows="4" maxlength="506" required placeholder="Enter a event description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam</textarea>
-              <input type="file" id="file" name="file" accept="image/*" placeholder="Choose a thumbnail" class="form-control-file mt-2">
+              <input type="file" id="poster" name="file" accept="image/*" placeholder="Choose a thumbnail" class="form-control-file mt-2">
+                <div class="progress">
+                    <div class="bar"></div >
+                    <div class="percent">0%</div >
+                </div>
               <button type="submit" name="addNewEvent" id="addNewEvent" class="form-control btn btn-primary mt-3">Add Event</button>
             </div>
           </form>
@@ -202,8 +216,7 @@
           @if(count($events) > 0)
               @foreach($events as $event)
             <div class="col-md-4 event-wrap ftco-animate">
-              <div class="img" style="background-image: url( {{ $event->imagepath}});
-                  "></div>
+              <div class="img" style="background-image: url( {{ $event->imagepath}});"></div>
               <div class="text p-4 px-md-5 d-flex align-items-center">
                   @if (Auth::check() && auth()->user()->role == "admin")
                       <form action="/event/{{$event->id}}" method="post">
@@ -275,6 +288,51 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-23581568-13');
+  </script>
+
+  <script type="text/javascript">
+
+      function validate(formData, jqForm, options) {
+          var form = jqForm[0];
+          if (!form.file.value) {
+              alert('File not found');
+              return false;
+          }
+      }
+
+      (function() {
+
+          var bar = $('.bar');
+          var percent = $('.percent');
+          var status = $('#status');
+
+          $('form').ajaxForm({
+              beforeSubmit: validate,
+              beforeSend: function() {
+                  status.empty();
+                  var percentVal = '0%';
+                  var posterValue = $('input[name=file]').fieldValue();
+                  bar.width(percentVal)
+                  percent.html(percentVal);
+              },
+              uploadProgress: function(event, position, total, percentComplete) {
+                  var percentVal = percentComplete + '%';
+                  bar.width(percentVal)
+                  percent.html(percentVal);
+              },
+              success: function() {
+                  var percentVal = 'Wait, Saving';
+                  bar.width(percentVal)
+                  percent.html(percentVal);
+              },
+              complete: function(xhr) {
+                  status.html(xhr.responseText);
+                  alert('Uploaded Successfully');
+                  window.location.href = "/file-upload";
+              }
+          });
+
+      })();
   </script>
 </body>
 

@@ -89,16 +89,16 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
-								<div class="dbox w-100 text-center">
-									<div class="icon bg-quarternary d-flex align-items-center justify-content-center">
-										<span class="fa fa-globe"></span>
-									</div>
-									<div class="text">
-										<p><span>Website</span> <a href="#">yoursite.com</a></p>
-									</div>
-								</div>
-							</div>
+{{--							<div class="col-md-3">--}}
+{{--								<div class="dbox w-100 text-center">--}}
+{{--									<div class="icon bg-quarternary d-flex align-items-center justify-content-center">--}}
+{{--										<span class="fa fa-globe"></span>--}}
+{{--									</div>--}}
+{{--									<div class="text">--}}
+{{--										<p><span>Website</span> <a href="#">yoursite.com</a></p>--}}
+{{--									</div>--}}
+{{--								</div>--}}
+{{--							</div>--}}
 						</div>
 						<div class="row no-gutters">
 							<div class="col-md-8">
