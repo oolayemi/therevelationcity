@@ -399,7 +399,7 @@
         <p class="my-5 text-center"> <a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermon </a></p>
 
           @else
-              <h2 class="my-5 text-center">Empty!!!!!!!!!!!!!!!!!!!!!</h2>
+              <h2 class="my-5 text-center">No sermons added yet</h2>
           @endif
       </div>
 
@@ -472,7 +472,7 @@
             </div>
               @endforeach
           @else
-              <h2 class="my-2 text-center">Empty!!!!!!!!!!!!!!!!!!!!!</h2>
+              <h2 class="my-2 text-center">No event added yet/h2>
           @endif
       </div>
     </div>
@@ -508,7 +508,7 @@
             </div>
               @endforeach
           @else
-              <h2 class="my-2 text-center">Empty!!!!!!!!!!!!!!!!!!!!!</h2>
+              <h2 class="my-2 text-center">No images added yet</h2>
           @endif
 
       </div>
