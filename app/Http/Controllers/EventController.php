@@ -66,7 +66,7 @@ class EventController extends Controller
             'address' => $request->address,
             'description' => $request->description,
             'filename' => $filename,
-            'imagepath' => '/storage/'.$imagepath,
+            'imagepath' => $imagepath,
         ]);
 
 
