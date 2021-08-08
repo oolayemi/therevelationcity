@@ -500,7 +500,6 @@
           @if(count($galleries) > 0)
               @foreach($galleries as $gallery)
 
-
             <div class="col-md-3 p-2">
               <a href="{{ $gallery->imagepath }}" class="image-popup img gallery ftco-animate" style="background-image: url({{ asset($gallery->imagepath) }});">
                 <span class="overlay"></span>
