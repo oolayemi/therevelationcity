@@ -42,9 +42,9 @@
     <div class="container">
       <div class="row no-gutters slider-text align-items-end">
         <div class="col-md-9 ftco-animate pb-5">
-          <p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span>
+          <p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Home <i class="fa fa-chevron-right"></i></a></span> <span>About <i class="fa fa-chevron-right"></i></span>
           </p>
-          <h1 class="mb-0 bread">About Us</h1>
+          <h1 class="mb-0 bread">About RevelationCity Academy</h1>
         </div>
       </div>
     </div>
