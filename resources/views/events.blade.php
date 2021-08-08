@@ -143,6 +143,7 @@
 {{--<!--      --><?php--}}
 {{--//      if (isset($_SESSION['Email']) && $_SESSION["Role"] == "admin") {--}}
 {{--//      ?>--}}
+        @if(Auth::chech() && auth()->user()->role == 'admin' )
         <div class="text-right ftco-animate">
           <p class="mb-0"> <button onclick="document.getElementById('modal-wrapper').style.display='block'" class="btn btn-primary py-2 mb-2 px-2"> Add new Event <span><i class="fa fa-plus"></i></span></button></p>
         </div>
@@ -195,6 +196,7 @@
 {{--<!--      --><?php--}}
 {{--//      }--}}
 {{--//      ?>--}}
+        @endif
       <div class="row">
 
           @if(count($events) > 0)

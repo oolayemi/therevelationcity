@@ -106,8 +106,8 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="ministries.php" class="nav-link">Ministries</a></li>
+          <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="ministries" class="nav-link">Ministries</a></li>
           <li class="nav-item active"><a href="sermons" class="nav-link">Sermons</a></li>
           <li class="nav-item"><a href="events" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
