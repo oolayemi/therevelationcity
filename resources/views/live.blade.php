@@ -81,7 +81,7 @@
 		<div class="row" style="height: 100%;">
 			<div class="col-md-9 p-0 m-0">
 				<video-js id="my_video_1" class="vjs-default-skin" controls preload="auto" style="width: 100%; height: calc(100% - 65px);">
-					<source src="http://104.236.16.246/hls/bbb.m3u8" type="application/x-mpegURL">
+					<source src="http://147.182.234.188:8080/hls/test.m3u8" type="application/x-mpegURL">
 				</video-js>
 			</div>
 			<div class="col-md-3" style="background:white;">
