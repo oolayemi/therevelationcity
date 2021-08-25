@@ -87,12 +87,6 @@
               to see that they are well planted in the Lord.</p>
           </div>
 
-          <div class="mt-5 my-lg-5">
-            <div class="row justify-content-between px-3">
-              <a href="#">Next</a>
-              <a href="#"> Prev</a>
-            </div>
-          </div>
         </div>
         <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
           <div class="sidebar-box ftco-animate">

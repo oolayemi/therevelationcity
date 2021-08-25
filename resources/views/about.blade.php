@@ -347,7 +347,7 @@
       <div class="row justify-content-center px-3">
         <div class="col-md-7 col-lg-4">
           <div class="staff ftco-animate">
-            <div class="img text-right" style="background-image: url( {{ asset('images/man.jpg') }} );"></div>
+            <div class="img text-right" style="background-image: url( {{ asset('images/pastorwale.jpg') }} );"></div>
             <div class="text text-1">
               <h3>Pastor Wale Adeyemo</h3>
               <span>Senior Pastor</span>

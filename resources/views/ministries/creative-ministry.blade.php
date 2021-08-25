@@ -88,12 +88,7 @@
             <p class="ml-5 ftco-animate">Acts of David is a dancing group of the Church. They communicate the gospel of Christ through choreographies and dances.</p>
           </div>
 
-          <div class="mt-5 my-lg-5">
-            <div class="row justify-content-between px-3">
-              <a href="#">Next</a>
-              <a href="#"> Prev</a>
-            </div>
-          </div>
+
         </div>
         <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
           <div class="sidebar-box ftco-animate">
