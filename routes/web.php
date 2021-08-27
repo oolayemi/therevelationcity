@@ -31,6 +31,9 @@ Route::view('/donate', 'donate')->name('donate');
 Route::view('/live', 'live')->name('live');
 Route::view('/rcacademy', 'rcacademy')->name('reacademy');
 
+Route::post('/talktopastor', [\App\Http\Controllers\SendEmailController::class, 'talkToPastor'])->name('talktopastor');
+Route::post('/joinaserviceunit', [\App\Http\Controllers\SendEmailController::class, 'joinServiceUnit'])->name('joinaserviceunit');
+
 
 Route::view('/ministries', 'ministries')->name('ministries');
 Route::view('/call-ministry', 'ministries.call-ministry')->name('call-ministry');

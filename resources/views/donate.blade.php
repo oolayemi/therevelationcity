@@ -176,7 +176,7 @@
                 <br>
                 <div>
                      <h4 class="text-bold ftco-animate">• E-TRANSFER</h4>
-                    <p class="ftco-animate"> &emsp;&ensp; Donate using Interac eTransfer by sending the payment to <a href="mailto:giving@revelationcity.org">giving@revelationcity.org. </a> </p>
+                    <p class="ftco-animate"> &emsp;&ensp; Donate using Interac eTransfer by sending the payment to <a href="mailto:giving@revelationcity.ca">giving@revelationcity.ca </a> </p>
                  </div>
                 <br>
                 <div>
@@ -193,7 +193,7 @@
                     <h3 class=" text-center text-bold ftco-animate">SO, WHAT'S NEXT?</h3>
                     <ul>
                         <li class="ftco-animate">Get involved, GIVE. For more information you can drop at the information desk, our officials will be more than happy to help you.</li>
-                        <li class="ftco-animate">Alternatively, you can email us at giving@revelationcity.org.</li>
+                        <li class="ftco-animate">Alternatively, you can email us at giving@revelationcity.ca.</li>
                     </ul>
                     <p class="ftco-animate"> God bless you as you give </p>
                 </div>

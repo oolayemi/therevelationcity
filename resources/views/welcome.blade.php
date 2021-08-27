@@ -161,7 +161,7 @@
   <section class="ftco-section ftco-no-pt ftco-no-pb ftco-animate">
     <div class="container mt-5">
       <div class="row d-flex">
-        <div class="col-md-6 pl-md-5 py-md-5">
+        <div class="col-md-6 pl-md-5">
           <div class="heading-section pt-md-5 mb-4">
             <span class="subheading">Welcome to RevelationCity Church</span>
             <h2 class="mb-5">Connect, Grow and Serve with Us</h2>
@@ -246,24 +246,33 @@
       </div>
     </div>
   </section>
+  @if($message = Session::get('success'))
+
+      <script>
+          console.log({{ $message }});
+          alert({{ $message }})
+      </script>
+  @endif
   <section>
 
     <div>
       <div id="modal-wrapper" class="modal">
-        <form class="modal-content animate" method="POST" enctype="multipart/form-data">
+        <form class="modal-content animate" method="POST" action="/talktopastor">
+
           <div class="imgcontainer">
             <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
             <img src="images/logo_black.png" class="avatar mb-3" alt="logo">
             <h3 style="text-align: center; font-weight: bold;">Talk to a Pastor</h3>
           </div>
-
+            @csrf
           <div class="container">
+
             <div class="row justify-content-between mt-2 px-0">
               <div class="col-md-6 pb-2">
-                <input type="text" name="firstName" id="firstname" placeholder="Enter First name" required class="form-control">
+                <input type="text" name="firstname" id="firstname" placeholder="Enter First name" required class="form-control">
               </div>
               <div class="col-md-6">
-                <input type="text" name="lastName" id="lastname" placeholder="Enter Last name" required class="form-control">
+                <input type="text" name="lastname" id="lastname" placeholder="Enter Last name" required class="form-control">
               </div>
             </div>
 
@@ -286,7 +295,7 @@
 
       <div class="item ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <img src="images/theword.jpg" class="block-20">
+          <img src="images/theword.jpg" class="block-20" alt="">
 
           <div class="text p-3" style="background: #ffffff;">
 
@@ -379,7 +388,7 @@
 
 
       <div style="background: #f6f6f9; border-radius: 20px; padding: 5px 20px">
-        <div class="row justify-content-right text-center">
+        <div class="row justify-content-right text-center ftco-animate">
 
             @if(count($sermons) > 0)
             @foreach($sermons as $sermon)
@@ -399,7 +408,7 @@
         <p class="my-5 text-center"> <a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermon </a></p>
 
           @else
-              <h2 class="my-5 text-center col-md-12">No sermons added yet</h2>
+              <h2 class="my-5 text-center col-md-12 ftco-animate">No sermons added yet</h2>
           @endif
       </div>
 
@@ -427,57 +436,7 @@
     </div>
   </section>
 
-  <section class="ftco-section">
-    <div class="container">
-      <div class="row justify-content-center pb-5 mb-3">
-        <div class="col-md-7 heading-section text-center ftco-animate">
-          <span class="subheading">Events</span>
-          <h2>Latest Events</h2>
-        </div>
-      </div>
-
-        @if(Auth::check() && auth()->user()->role == "admin")
-        <div class="text-right ftco-animate">
-          <p class="mb-0"> <a href="/events" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> Add new Events</a></p>
-        </div>
-        @endif
-
-
-      <div class="row">
-          @if(count($events) > 0)
-              @foreach($events as $event)
-            <div class="col-md-12 event-wrap d-md-flex ftco-animate">
-              <div class="img" style="background-image: url( {{ asset($event->imagepath) }} );"></div>
-              <div class="text p-4 px-md-5 d-flex align-items-center">
-
-                    @if(Auth::check() && auth()->user()->role == "admin")
-                  <form action="deleteProcess.php?id=id imagepath" method="POST">
-                    <button type="submit" name="deleteEvent" id="deleteEvent" class="delete" title="Delete Event" style="background: none; border: none;">&times;</button>
-                  </form>
-                    @endif
-
-                <div class="desc">
-                  <h2 class="mb-2"><a href="events">{{ $event->title }}</a></h2>
-                  <div class="meta">
-                    <p>
-                      <span><i class="fa fa-calendar mr-2"></i>{{ $event->date }}</span>
-                      <span><i class="fa fa-clock-o mr-2"></i>{{ $event->starttime }} - {{ $event->endtime }} </span>
-                      <span><i class="fa fa-map-marker mr-2"></i> <a href="#">{{ $event->location}}</a></span>
-                      <span><i class="fa fa-building mr-2"></i>{{ $event->address}}</span>
-                    </p>
-                  </div>
-                  <p><a href="/events" class="btn btn-primary">More Details</a></p>
-                </div>
-              </div>
-            </div>
-              @endforeach
-          @else
-              <h2 class="my-2 text-center col-md-12">No event added yet</h2>
-          @endif
-      </div>
-    </div>
-  </section>
-  <section class="ftco-section ftco-no-pb ftco-no-pt">
+  <section class="ftco-section ftco-no-pb ftco-no-pt mt-3">
     <div class="container-fluid px-md-0">
       <div class="row no-gutters justify-content-center pb-5 mb-3">
         <div class="col-md-7 heading-section text-center ftco-animate">
@@ -507,7 +466,7 @@
             </div>
               @endforeach
           @else
-              <h2 class="my-2 text-center col-md-12">No images added yet</h2>
+              <h2 class="my-4 text-center col-md-12 ftco-animate">No images added yet</h2>
           @endif
 
       </div>

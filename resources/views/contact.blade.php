@@ -84,7 +84,7 @@
 									</div>
 									<div class="text">
 										<p><span>Email: </span> <a
-												href="mailto:contact@therevelationcity.org">contact@therevelationcity.org</a>
+												href="mailto:contact@revelationcity.ca">contact@revelationcity.ca</a>
 										</p>
 									</div>
 								</div>

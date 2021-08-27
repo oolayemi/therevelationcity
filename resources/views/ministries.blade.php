@@ -212,7 +212,7 @@
               <p class="mb-0"> <button onclick="document.getElementById('modal-wrapper').style.display='block'" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> Join a service unit </button></p>
           </div>
           <div id="modal-wrapper" class="modal">
-              <form action="{{ route('sermon.store') }}" class="modal-content animate" method="POST" enctype="multipart/form-data">
+              <form action="/joinaserviceunit" class="modal-content animate" method="POST" enctype="multipart/form-data">
                   <div class="imgcontainer">
                       <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
                       <img src="images/logo_black.png" class="avatar mb-4" alt="logo">
@@ -221,11 +221,17 @@
 
                   <div class="container">
                       @csrf
-                      <input type="text" name="name" id="name" placeholder="Enter your name" required class="form-control">
-                      <input type="text" name="email" placeholder="Enter Email" id="speaker" class="form-control mt-2">
-                      <input type="text" name="phone" id="phone" class="form-control mt-2" required>
-{{--                      <input type="text" name="categories" id="categories" class="form-control mt-2" required placeholder="Enter categories (Seperate with comma)">--}}
-                      <textarea name="message" id="message" class="form-control mt-2" cols="30" rows="5" required placeholder="Enter your message"></textarea>
+                      <div class="row justify-content-between mt-2 px-0">
+                          <div class="col-md-6 pb-2">
+                              <input type="text" name="firstname" id="firstname" placeholder="Enter First name" required class="form-control">
+                          </div>
+                          <div class="col-md-6">
+                              <input type="text" name="lastname" id="lastname" placeholder="Enter Last name" required class="form-control">
+                          </div>
+                      </div>
+                      <input type="text" name="email" required placeholder="Enter Email" id="speaker" class="form-control mt-2">
+                      <input type="text" name="unit" id="unit" class="form-control mt-2" required placeholder="Enter enter the unit you'd like to join">
+{{--                      <textarea name="message" id="message" class="form-control mt-2" cols="30" rows="5" required placeholder="Enter your message"></textarea>--}}
                       <button type="submit" class="form-control btn btn-primary mt-3">Send</button>
                   </div>
               </form>
