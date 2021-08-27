@@ -295,7 +295,7 @@
 
       <div class="item ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <img src="images/theword.jpg" class="block-20" alt="">
+          <img src="images/theword.jpg" class="block-20" alt="" style="border-radius: 10px 10px 0 0">
 
           <div class="text p-3" style="background: #ffffff;">
 
@@ -324,7 +324,7 @@
       <div class="item ftco-animate">
 
         <div class="blog-entry align-self-stretch">
-          <a href="contact" class="block-20" style="background-image: url( {{ asset('images/teaching.png') }} );"></a>
+          <a href="contact" class="block-20" style="background-image: url( {{ asset('images/teaching.png') }} ); border-radius: 10px 10px 0 0"></a>
 
           <div class="text p-3" style="background: #ffffff;">
             <div class="meta mb-2">
@@ -344,7 +344,7 @@
 
       <div class="item ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single" class="block-20" style="background-image: url({{ asset('images/teaching_bible.jpg') }});"></a>
+          <a href="blog-single" class="block-20" style="background-image: url({{ asset('images/teaching_bible.jpg') }}); border-radius: 10px 10px 0 0"></a>
 
           <div class="text p-3" style="background: #ffffff;">
             <div class="meta mb-2">
