@@ -5,6 +5,6 @@
     <ul>
         <li>Name: <em> <b> {{ $data['firstname'] . " " . $data['lastname'] }}</b></em></li>
         <li>Reach via: <em> <b> {{ $data['reach'] }} </b>  </em></li>
-            <li>Contact information: <em> <b> {{ $data['reachValue'] }}</b></em> </li>
+        <li>Contact information: <em> <b> {{ $data['reachValue'] }}</b></em> </li>
     </ul>
 </div>

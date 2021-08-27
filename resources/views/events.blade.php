@@ -122,7 +122,7 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="about" class="nav-link">About</a></li>a
           <li class="nav-item"><a href="ministries" class="nav-link">Ministries</a></li>
           <li class="nav-item"><a href="sermons" class="nav-link">Sermons</a></li>
           <li class="nav-item active"><a href="events" class="nav-link">Events</a></li>
@@ -265,8 +265,6 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 
   <script>
@@ -276,18 +274,6 @@
         modal.style.display = "none";
       }
     }
-  </script>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
   </script>
 
   <script type="text/javascript">
@@ -312,17 +298,17 @@
                   status.empty();
                   var percentVal = '0%';
                   var posterValue = $('input[name=file]').fieldValue();
-                  bar.width(percentVal)
+                  bar.width(percentVal);
                   percent.html(percentVal);
               },
               uploadProgress: function(event, position, total, percentComplete) {
                   var percentVal = percentComplete + '%';
-                  bar.width(percentVal)
+                  bar.width(percentVal);
                   percent.html(percentVal);
               },
               success: function() {
                   var percentVal = 'Wait, Saving';
-                  bar.width(percentVal)
+                  bar.width(percentVal);
                   percent.html(percentVal);
               },
               complete: function(xhr) {

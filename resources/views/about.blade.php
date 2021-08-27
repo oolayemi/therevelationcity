@@ -61,7 +61,7 @@
     </div>
   </nav>
 
-  <section class="hero-wrap hero-wrap-2" style="background-image: url( {{ asset('images/youths.jpg') }} );">
+  <section class="hero-wrap hero-wrap-2" style="background-image: url( {{ asset('images/bg_1.jpg') }} );">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-end">
@@ -403,27 +403,24 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/scrollax.min.js"></script>
   <script src="js/theme.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-  <script>
-      var coll = document.getElementById("collapsible");
-      var i;
+{{--  <script>--}}
+{{--      var coll = document.getElementById("collapsible");--}}
+{{--      var i;--}}
 
-      for (i = 0; 1 < coll.length; i++){
-          coll[i].addEventListener("click", function () {
-              this.classList.toggle('active');
-              var content = this.nextElementSibling;
-              if (content.style.display === "block"){
-                  content.style.display = "none";
-              } else {
-                  content.style.display = "block";
-              }
-          });
-      }
-  </script>
+{{--      for (i = 0; 1 < coll.length; i++){--}}
+{{--          coll[i].addEventListener("click", function () {--}}
+{{--              this.classList.toggle('active');--}}
+{{--              var content = this.nextElementSibling;--}}
+{{--              if (content.style.display === "block"){--}}
+{{--                  content.style.display = "none";--}}
+{{--              } else {--}}
+{{--                  content.style.display = "block";--}}
+{{--              }--}}
+{{--          });--}}
+{{--      }--}}
+{{--  </script>--}}
   <script>
     window.dataLayer = window.dataLayer || [];
 

@@ -227,21 +227,21 @@
 
           </div>
 
-          <div class="row mt-5">
-            <div class="col text-center">
-              <div class="block-27">
-                <ul>
-                  <li><a href="#">&lt;</a></li>
-                  <li class="active"><span>1</span></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
-                  <li><a href="#">&gt;</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+{{--          <div class="row mt-5">--}}
+{{--            <div class="col text-center">--}}
+{{--              <div class="block-27">--}}
+{{--                <ul>--}}
+{{--                  <li><a href="#">&lt;</a></li>--}}
+{{--                  <li class="active"><span>1</span></li>--}}
+{{--                  <li><a href="#">2</a></li>--}}
+{{--                  <li><a href="#">3</a></li>--}}
+{{--                  <li><a href="#">4</a></li>--}}
+{{--                  <li><a href="#">5</a></li>--}}
+{{--                  <li><a href="#">&gt;</a></li>--}}
+{{--                </ul>--}}
+{{--              </div>--}}
+{{--            </div>--}}
+{{--          </div>--}}
     </div>
   </section>
   @include('helpers.footer')
@@ -263,11 +263,8 @@
   <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
   <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
   <script src="{{ asset('js/scrollax.min.js') }}"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="{{ asset('js/google-map.js') }}"></script>
   <script src="{{ asset('js/main.js') }}"></script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
   <script>
     var modal = document.getElementById('modal-wrapper');
     window.onclick = function(event) {
@@ -276,16 +273,7 @@
       }
     }
   </script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
-  </script>
 </body>
 
 </html>

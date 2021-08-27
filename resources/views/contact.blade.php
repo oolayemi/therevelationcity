@@ -56,8 +56,8 @@
 			<div class="row justify-content-center">
 				<div class="col-md-12">
 					<div class="wrapper">
-						<div class="row mb-5">
-							<div class="col-md-3">
+						<div class="row mb-5 justify-content-center">
+							<div class="col-md-4">
 								<div class="dbox w-100 text-center">
 									<div class="icon bg-primary d-flex align-items-center justify-content-center">
 										<span class="fa fa-map-marker"></span>
@@ -67,7 +67,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-4">
 								<div class="dbox w-100 text-center">
 									<div class="icon bg-secondary d-flex align-items-center justify-content-center">
 										<span class="fa fa-phone"></span>
@@ -77,7 +77,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-4">
 								<div class="dbox w-100 text-center">
 									<div class="icon bg-tertiary d-flex align-items-center justify-content-center">
 										<span class="fa fa-paper-plane"></span>
@@ -104,7 +104,8 @@
 							<div class="col-md-8">
 								<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3 class="mb-4">Contact Us</h3>
-									<form method="POST" action="addProcess.php" class="contactForm">
+									<form method="POST" action="/contactemail" class="contactForm">
+                                        @csrf
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
@@ -129,7 +130,7 @@
 											<div class="col-md-6">
 												<div class="form-group">
 													<label class="label" for="phone">Phone Number</label>
-													<input type="text" class="form-control" name="phonenumber" id="phone" placeholder="Phone Number">
+													<input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number">
 												</div>
 											</div>
 
@@ -196,9 +197,9 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=true"></script>
-	<script src="js/google-map.js"></script>
+{{--	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDO7AQorVSAs_5KJ60aD48wO3JjRDDSpt8&sensor=true"></script>--}}
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=true"></script>
+    <script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>

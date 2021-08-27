@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SendContactEmail;
 use App\Mail\SendEmail;
 use App\Mail\SendJoinAUnitEmail;
 use App\Mail\SendTalkToPastorEmail;
@@ -48,6 +49,30 @@ class SendEmailController extends Controller
         );
 
         Mail::to('pastor@revelationcity.ca')->send(new SendJoinAUnitEmail($data));
+
+        return  back()->with('success', 'Sent successfully');
+    }
+
+    public function contactemail(Request $request) {
+        $request->validate([
+            'firstname' => 'required|string',
+            'lastname' => 'required|string',
+            'email' => 'required|string',
+            'phone' => 'required|string',
+            'subject' => 'required|string',
+            'message' => 'required',
+        ]);
+
+        $data = array(
+            'firstname' => $request->firstname,
+            'lastname' => $request->lastname,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'subject' => $request->subject,
+            'message' => $request->message,
+        );
+
+        Mail::to('pastor@revelationcity.ca')->send(new SendContactEmail($data));
 
         return  back()->with('success', 'Sent successfully');
     }

@@ -54,6 +54,6 @@
                 </div>
             </div>
         </div>
-        <div class="text-center text-white mt-3 ftco-animate"> <em> “………transforming lives by revelation”</em></div>
+        <div class="text-center text-white mt-3 ftco-animate"> <em> “……transforming lives by revelation”</em></div>
     </div>
 </footer>

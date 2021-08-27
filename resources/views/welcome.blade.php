@@ -139,7 +139,7 @@
 
   <section class="hero-wrap">
     <div>
-      <div class="container" style="background-image:url( {{ asset('images/worship.gif') }} ); background-size: cover;">
+      <div class="container" style="background-image:url( {{ asset('images/bible-wood.jpg') }} ); background-size: cover;">
 
         <div class="container">
           <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -344,7 +344,7 @@
 
       <div class="item ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single" class="block-20" style="background-image: url({{ asset('images/youths.jpg') }});"></a>
+          <a href="blog-single" class="block-20" style="background-image: url({{ asset('images/teaching_bible.jpg') }});"></a>
 
           <div class="text p-3" style="background: #ffffff;">
             <div class="meta mb-2">

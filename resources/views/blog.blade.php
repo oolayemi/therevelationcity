@@ -248,7 +248,6 @@
   <script src="js/scrollax.min.js"></script>
   <script src="js/main.js"></script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
   <script>
     var modal = document.getElementById('modal-wrapper');
     window.onclick = function(event) {
@@ -257,17 +256,8 @@
       }
     }
   </script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
-  </script>
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"638782841baac4e8","version":"2021.3.0","si":10}'></script>
+{{--  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"638782841baac4e8","version":"2021.3.0","si":10}'></script>--}}
 </body>
 
 </html>

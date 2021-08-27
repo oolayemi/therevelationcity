@@ -33,6 +33,7 @@ Route::view('/rcacademy', 'rcacademy')->name('reacademy');
 
 Route::post('/talktopastor', [\App\Http\Controllers\SendEmailController::class, 'talkToPastor'])->name('talktopastor');
 Route::post('/joinaserviceunit', [\App\Http\Controllers\SendEmailController::class, 'joinServiceUnit'])->name('joinaserviceunit');
+Route::post('/contactemail', [\App\Http\Controllers\SendEmailController::class, 'contactemail'])->name('contactemail');
 
 
 Route::view('/ministries', 'ministries')->name('ministries');
