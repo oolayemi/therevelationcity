@@ -54,7 +54,7 @@
 
       <div class="row no-gutters d-flex sermon-wrap ftco-animate bg-light">
         <div class="col-md-6 d-flex align-items-stretch ftco-animate">
-          <a href="#" class="img m-3" style="background-image: url({{ asset('images/Giving.jpg') }} );"></a>
+          <a href="#" class="img m-3" style="background-image: url({{ asset('images/giving.jpg') }});"></a>
         </div>
         <div class="col-md-6 py-3 py-md-4 ftco-animate d-flex align-items-center">
           <div class="text p-md-5">
