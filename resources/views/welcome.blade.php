@@ -507,7 +507,7 @@
       $(".header1").click(function () {
           $header1 = $(this);
           $content1 = $header1.prev();
-          $content1.slideToggle(50, function () {
+          $content1.slideToggle(0, function () {
               $header1.text(function () {
                   return $content1.is(":visible") ? "read less..." : "read more";
               });
@@ -517,7 +517,7 @@
       $(".header2").click(function () {
           $header2 = $(this);
           $content2 = $header2.prev();
-          $content2.slideToggle(50, function () {
+          $content2.slideToggle(0, function () {
               $header2.text(function () {
                   return $content2.is(":visible") ? "read less..." : "read more";
               });
@@ -527,7 +527,7 @@
       $(".header3").click(function () {
           $header3 = $(this);
           $content3 = $header3.prev();
-          $content3.slideToggle(50, function () {
+          $content3.slideToggle(0, function () {
               $header3.text(function () {
                   return $content3.is(":visible") ? "read less..." : "read more";
               });
