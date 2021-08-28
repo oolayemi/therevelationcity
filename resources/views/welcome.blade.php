@@ -507,7 +507,7 @@
       $(".header1").click(function () {
           $header1 = $(this);
           $content1 = $header1.prev();
-          $content1.slideToggle(250, function () {
+          $content1.slideToggle(50, function () {
               $header1.text(function () {
                   return $content1.is(":visible") ? "read less..." : "read more";
               });
@@ -517,7 +517,7 @@
       $(".header2").click(function () {
           $header2 = $(this);
           $content2 = $header2.prev();
-          $content2.slideToggle(250, function () {
+          $content2.slideToggle(50, function () {
               $header2.text(function () {
                   return $content2.is(":visible") ? "read less..." : "read more";
               });
@@ -527,7 +527,7 @@
       $(".header3").click(function () {
           $header3 = $(this);
           $content3 = $header3.prev();
-          $content3.slideToggle(250, function () {
+          $content3.slideToggle(50, function () {
               $header3.text(function () {
                   return $content3.is(":visible") ? "read less..." : "read more";
               });
@@ -555,18 +555,6 @@
       });
 
 
-  </script>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
   </script>
 </body>
 
