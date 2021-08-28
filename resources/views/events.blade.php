@@ -134,7 +134,7 @@
     </div>
   </nav>
 
-  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+  <section class="hero-wrap hero-wrap-2" style="background-image: url( {{ asset('images/bg_1.jpg') }} );">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-end">
@@ -235,7 +235,7 @@
                       <span><i class="fa fa-building mr-2"></i> {{ $event->address }}</span>
                     </p>
                   </div>
-                  <p><a href="{{route('event', $event->id)}}" class="btn btn-primary">More Details</a></p>
+{{--                  <p><a href="{{route('event', $event->id)}}" class="btn btn-primary">More Details</a></p>--}}
                 </div>
               </div>
             </div>

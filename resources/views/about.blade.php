@@ -167,7 +167,8 @@
             </div>
           </div>
           <div class="col-md-6 d-flex ftco-animate">
-            <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/event-1.jpg);">
+            <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
+                 style="background-image:url( {{asset('images/event-1.jpg')}} );">
             </div>
           </div>
         </div>
@@ -334,6 +335,7 @@
 
         </div>
       </div>
+    </div>
   </section>
 
   <section class="ftco-section">

@@ -139,7 +139,7 @@
     </div>
   </nav>
 
-  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+  <section class="hero-wrap hero-wrap-2" style="background-image: url( {{ asset('images/bg_1.jpg') }});">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-end">
@@ -154,7 +154,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 ministry ftco-animate">
-          <div class="img" style="background-image: url(images/call-ministry.jpg);">
+          <div class="img" style="background-image: url( {{ asset('images/call-ministry.jpg') }} );">
             <div class="inner">
               <div class="btn-left btn">
                 <a href="/call-ministry">Call Ministry</a>
@@ -163,7 +163,7 @@
           </div>
         </div>
         <div class="col-md-4 ministry ftco-animate">
-          <div class="img" style="background-image: url(images/ministry-5.jpg);">
+          <div class="img" style="background-image: url({{ asset('images/ministry-5.jpg') }} );">
             <div class="inner">
               <div class="btn-left btn">
                 <a href="/creative-ministry">Creative Ministry</a>
@@ -172,7 +172,7 @@
           </div>
         </div>
         <div class="col-md-4 ministry ftco-animate">
-          <div class="img" style="background-image: url(images/hospitality.jpg);">
+          <div class="img" style="background-image: url( {{ asset('images/hospitality.jpg') }} );">
             <div class="inner">
               <div class="btn-left btn">
                 <a href="/hospitality-ministry">Hospitality Ministry</a>
@@ -181,7 +181,7 @@
           </div>
         </div>
         <div class="col-md-4 ministry ftco-animate">
-          <div class="img" style="background-image: url(images/kidz_teens.jpg);">
+          <div class="img" style="background-image: url( {{ asset('images/kidz_teens.jpg') }});">
             <div class="inner">
               <div class="btn-left btn">
                 <a href="/kidzteens-ministry">Kidz & Teens Ministry</a>
@@ -190,7 +190,7 @@
           </div>
         </div>
         <div class="col-md-4 ministry ftco-animate">
-          <div class="img" style="background-image: url(images/technical-ministry.jpg);">
+          <div class="img" style="background-image: url( {{ asset('images/technical-ministry.jpg') }} );">
             <div class="inner">
               <div class="btn-left btn">
                 <a href="/technical-ministry">Technical Ministry</a>
@@ -199,7 +199,7 @@
           </div>
         </div>
         <div class="col-md-4 ministry ftco-animate">
-          <div class="img" style="background-image: url(images/social-action.png);">
+          <div class="img" style="background-image: url( {{ asset('images/social-action.png') }});">
             <div class="inner">
               <div class="btn-left btn">
                 <a href="/socialaction-ministry">Social Action Ministry</a>

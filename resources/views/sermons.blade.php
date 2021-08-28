@@ -118,7 +118,7 @@
     </div>
   </nav>
 
-  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+  <section class="hero-wrap hero-wrap-2" style="background-image: url( {{ asset('images/bg_1.jpg') }} );">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-end">
@@ -197,7 +197,7 @@
                     <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: none; border: none;">&times;</button>
                   </form>
                 @endif
-                <img src="images/play2.png" class="img" alt="logo" style="background-image: url(images/welcome.jpg);">
+                <img src="images/play2.png" class="img" alt="logo" style="background-image: url( {{ asset('images/welcome.jpg') }} );">
 
                 <!-- <a href="#" class="img" style="background-image: url(images/sermon-2.jpg);"></a> -->
                 </div>

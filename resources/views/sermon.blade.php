@@ -106,7 +106,7 @@
     </div>
   </nav>
 
-  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+  <section class="hero-wrap hero-wrap-2" style="background-image: url( {{asset('images/bg_1.jpg')}} );">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-end">
@@ -187,7 +187,7 @@
               }
               ?>
 
-              <img src="images/play2.png" class="img" alt="logo" style="background-image: url(images/welcome.jpg);">
+              <img src="images/play2.png" class="img" alt="logo" style="background-image: url( {{ asset('images/welcome.jpg') }} );">
             </div>
             <div class="col-md-6 py-4 py-md-5 ftco-animate d-flex align-items-center">
               <div class="text p-md-5">
