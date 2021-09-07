@@ -163,7 +163,7 @@
       <div class="row d-flex">
         <div class="col-md-6 pl-md-5">
           <div class="heading-section pt-md-5 mb-4">
-            <span class="subheading">Welcome to RevelationCity Church</span>
+            <span class="subheading">Welcome to Revelation City Church</span>
             <h2 class="mb-5">Connect, Grow and Serve with Us</h2>
             <p>Revelation City Church is a non-denominational Church set up by God to transform lives
               through the revelation in the teaching and preaching of the undiluted Word of God and empowering

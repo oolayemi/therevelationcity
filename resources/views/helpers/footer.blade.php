@@ -31,18 +31,18 @@
 {{--                    @endif--}}
 
 {{--            </div>--}}
-{{--            <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">--}}
-{{--                <h2 class="footer-heading">Quick Links</h2>--}}
-{{--                <ul class="list-unstyled">--}}
-{{--                    <li><a href="/" class="py-1 d-block">Home</a></li>--}}
-{{--                    <li><a href="about" class="py-1 d-block">About</a></li>--}}
-{{--                    <li><a href="sermons" class="py-1 d-block">Sermons</a></li>--}}
-{{--                    <li><a href="ministries" class="py-1 d-block">Ministries</a></li>--}}
+            <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 ftco-animate">
+                <h2 class="footer-heading">Quick Links</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/" class="py-1 d-block">Home</a></li>
+                    <li><a href="about" class="py-1 d-block">About</a></li>
+                    <li><a href="sermons" class="py-1 d-block">Sermons</a></li>
+                    <li><a href="ministries" class="py-1 d-block">Ministries</a></li>
 
-{{--                    <li><a href="blog" class="py-1 d-block">Blog</a></li>--}}
+                    <li><a href="blog" class="py-1 d-block">Blog</a></li>
 
-{{--                </ul>--}}
-{{--            </div>--}}
+                </ul>
+            </div>
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0 text-center">
                 <h2 class="footer-heading ftco-animate">Have a Questions?</h2>
                 <div class="block-23 mb-2 ">

@@ -133,7 +133,7 @@
 
       <div class="container">
         <div class="row d-flex">
-          <div class="col-md-6 pl-md-5 ftco-animate">
+          <div class="col-md-12 pl-md-5 ftco-animate">
             <div class="heading-section ftco-animate pt-md-5 mb-4 text-left">
               <h2 class="mb-4">OUR CORE VALUES </h2>
               <p class="">The standard of measuring success of mission statement in “Revelation City” is in the
@@ -166,11 +166,11 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 d-flex ftco-animate">
-            <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
-                 style="background-image:url( {{asset('images/event-1.jpg')}} );">
-            </div>
-          </div>
+{{--          <div class="col-md-6 d-flex ftco-animate">--}}
+{{--            <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"--}}
+{{--                 style="background-image:url( {{asset('images/event-1.jpg')}} );">--}}
+{{--            </div>--}}
+{{--          </div>--}}
         </div>
       </div>
 
@@ -185,7 +185,7 @@
           <div class="col-md-6 ftco-animate pl-md-5">
             <div class="pt-md-1 mx-4 ftco-animate text-left">
               <div class="ftco-animate beliefs">
-                <p class="heading">• GOD</p>
+                <p class="heading">GOD</p>
                 <p class="text-left"> We believe that there is only one living and true God, our creator,
                   manifested into three persons - God the Father, Jesus the Son, our Savior and the Holy Spirit,
                   the power of God in us. <br> <span>(Deut. 6:4, 1Cor 8:6, 1Jhn5:7)</span>.
@@ -193,7 +193,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• JESUS CHRIST </p>
+                <p class="heading">JESUS CHRIST </p>
                 <p class="text-left"> We believe that Jesus Christ is the Son of the living and true God. He was born of
                   the
                   Virgin Mary through the operation of the Holy Spirit.
@@ -202,7 +202,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• HE IS THE WAY </p>
+                <p class="heading">HE IS THE WAY </p>
                 <p class="text-left ftco-animate">
                   We believe that Jesus is the Way, the Truth and the Life. Jesus Christ is the only way by which
                   we can get to the Father and as many that calls on His name shall be saved.
@@ -211,7 +211,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• BIBLE </p>
+                <p class="heading">BIBLE </p>
                 <p class="text-left ftco-animate">
                   We believe that the Bible, i.e. all the scriptures within both Old and New Testaments are the
                   infallible
@@ -225,7 +225,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• CREATION OF MAN </p>
+                <p class="heading">CREATION OF MAN </p>
                 <p class="text-left">
                   We believe that man (Adam) was created in the image of God, having the same creative capacity as God
                   before
@@ -237,7 +237,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• SALVATION THROUGH THE BLOOD OF JESUS </p>
+                <p class="heading">SALVATION THROUGH THE BLOOD OF JESUS </p>
                 <p class="text-left">
                   We believe that all needs to be saved, we believe that salvation is for all and personal through the
                   blood
@@ -248,7 +248,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• DEATH, BURIAL AND RESSURECTION OF JESUS </p>
+                <p class="heading">DEATH, BURIAL AND RESSURECTION OF JESUS </p>
                 <p class="text-left">
                   We believe in the death burial and resurrection of JESUS CHRIST. He died and rose from dead
                   again after three days and now lives forever more for the redemption of mankind through his blood.
@@ -264,7 +264,7 @@
             <div class="pt-md-1 mx-4 mb-4 text-left">
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• WATER BAPTISM AND HOLY COMMUNION </p>
+                <p class="heading">WATER BAPTISM AND HOLY COMMUNION </p>
                 <p class="text-left">
                   We believe in Water Baptism and the Holy communion, which is by total immersion as a symbol of
                   identification with the crucifixion,
@@ -274,7 +274,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• HOLY SPIRIT </p>
+                <p class="heading">HOLY SPIRIT </p>
                 <p class="text-left">
                   We believe in the baptism of the Holy Ghost, which is a supernatural enduement of power from heaven to
                   equip
@@ -285,7 +285,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• RESSURECTION OF THE DEAD </p>
+                <p class="heading">RESSURECTION OF THE DEAD </p>
                 <p class="text-left">
                   We believe in the resurrection of the dead, that the dead shall rise again, the general judgment, the
                   eternal joy of the righteous and
@@ -295,7 +295,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• SECOND COMING OF JESUS </p>
+                <p class="heading">SECOND COMING OF JESUS </p>
                 <p class="text-left">
                   We believe in the personal return of our Lord Jesus Christ. We believe in the rapture, that the dead
                   in
@@ -307,7 +307,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• SPIRITUAL GIFTS </p>
+                <p class="heading">SPIRITUAL GIFTS </p>
                 <p class="text-left">
                   We believe in the spiritual gifts released for the edification and profiting of the body of Christ
                   with
@@ -318,7 +318,7 @@
               </div>
 
               <div class="ftco-animate beliefs">
-                <p class="heading">• TITHES AND OFFERINGS </p>
+                <p class="heading">TITHES AND OFFERINGS </p>
                 <p class="text-left">
                   We believe in Tithes and Offerings according to biblical injunction that it should be given to the
                   church of
