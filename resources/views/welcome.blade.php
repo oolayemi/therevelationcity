@@ -206,7 +206,7 @@
                         <span class="content1">connect with Revelation City Church for the first
                             time, a returnee after a long time absence maybe due to short time relocation or you are trying to get settled in a new Church to engage with as a family. Kindly reach out to us
                             by clicking the CONNECT button. We would love to know and connect with you
-                            <br> <button class="form-control btn btn-primary bg-secondary mt-2">Connect with Us</button>
+                            <br> <button class="form-control btn btn-primary bg-secondary mt-2"> <a href="/contact">Connect with Us</a> </button>
                 </span>
 
                         <div class="header1 text-left"><span>read more...</span></div>

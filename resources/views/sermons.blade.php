@@ -218,8 +218,6 @@
                                         <p>{{ $sermon->description }}</p>
                                         <p class="mt-4 btn-customize">
                                             <a href="#" class="btn btn-primary px-4 py-3 mr-md-2"><span class="fa fa-play"></span> Watch Sermons</a>
-                                            <a href="{{ $sermon->filepath }}" class="btn btn-primary btn-outline-primary px-4 py-3 ml-lg-2"><span class="fa fa-download"></span>
-                                                Download Sermons</a>
                                         </p>
                                     </div>
                                 </div>
