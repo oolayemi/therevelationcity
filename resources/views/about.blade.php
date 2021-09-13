@@ -104,7 +104,7 @@
         </div>
       </div>
 
-      <div class="container text-left mt-md-5 mb-5 py-md-5">
+        <div class="container text-left mt-md-5 mb-5 py-md-5">
         <div class="row d-flex">
           <div class="col-md-6 d-flex">
             <div class="heading-section mb-4 ftco-animate">
@@ -130,6 +130,7 @@
           </div>
         </div>
       </div>
+
 
       <div class="container">
         <div class="row d-flex">

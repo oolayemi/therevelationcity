@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Mail\SendContactEmail;
-use App\Mail\SendEmail;
 use App\Mail\SendJoinAUnitEmail;
 use App\Mail\SendTalkToPastorEmail;
 use Illuminate\Http\Request;

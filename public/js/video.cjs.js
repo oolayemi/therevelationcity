@@ -1,4 +1,4 @@
-/**
+popup-vimeo/**
  * @license
  * Video.js 7.11.8 <http://videojs.com/>
  * Copyright Brightcove, Inc. <https://www.brightcove.com/>

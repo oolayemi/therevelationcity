@@ -42,16 +42,8 @@ class SermonController extends Controller
             'date' => 'required',
             'categories' => 'required',
             'description' => 'required',
-//            'file' => 'required|mimes:mp4,mkv'
+            'youtubeLink' => 'required',
         ]);
-
-        $filename = str_replace(' ', '-', $request->file->getClientOriginalName());
-
-        if (File::exists(public_path().'/sermons/'.$filename)){
-            $filename = time() . '_' . str_replace(' ', '-', $request->file->getClientOriginalName());
-        }
-
-        $filepath = $request->file('file')->storeAs('sermons', $filename, 'public');
 
         Sermon::create([
             'title' => $request->title,
@@ -59,8 +51,7 @@ class SermonController extends Controller
             'date' => $request->date,
             'categories' => $request->categories,
             'description' => $request->description,
-            'filename' => $filename,
-            'filepath' => '/storage/'.$filepath,
+            'youtubeLink' => $request->youtubeLink,
         ]);
 
         return back()->with('success', 'Successfully added sermon');
@@ -106,15 +97,7 @@ class SermonController extends Controller
     {
         $sermon = Sermon::find($id);
 
-        if (File::exists($sermon->filepath)){
-            File::delete($sermon->filepath);
-        }
-
         $sermon->delete();
-
-//        return [
-//            'kjhjkf' => $sermon
-//        ];
 
         return back()->with('success', 'Successfully deleted sermon');
     }

@@ -20,8 +20,7 @@ class CreateSermonsTable extends Migration
             $table->text("description");
             $table->date("date");
             $table->text("categories");
-            $table->string('filename');
-            $table->string('filepath');
+            $table->string('youtubeLink');
             $table->timestamps();
         });
     }
