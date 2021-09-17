@@ -102,7 +102,7 @@
     </div>
 </section>
 
-<section class="ftco-section ftco-no-pt ftco-no-pb bg-light text-center">
+<section class="ftco-section ftco-no-pt ftco-no-pb text-center">
     <div class="container">
         <div class="heading-section pt-md-5 pb-3">
             <span class="subheading">Welcome to Revelation City Church</span>
