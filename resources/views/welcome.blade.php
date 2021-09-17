@@ -154,11 +154,11 @@
             <div class="container">
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
                     <div class="col-md-8 ftco-animate">
-                        <div class="text mt-md-5 w-100 text-center">
+                        <div class="text mt-md-4 w-100 text-center">
                             <h2>Transforming Live</h2>
                             <h1 class="mb-3">Total Surrender to <br> God</h1>
                             <p class="mb-4 pb-3"></p>
-{{--                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-2 px-md-4">Become A Volunteer</a></p>--}}
+                            {{--                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-2 px-md-4">Become A Volunteer</a></p>--}}
                         </div>
                     </div>
                 </div>
@@ -169,11 +169,11 @@
             <div class="container">
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
                     <div class="col-md-8 ftco-animate">
-                        <div class="text mt-md-5 w-100 text-center">
+                        <div class="text mt-md-4 w-100 text-center">
                             <h2>Revelation City Church</h2>
                             <h1 class="mb-3">Perfect Church For Imperfect People</h1>
                             <p class="mb-4 pb-3"></p>
-{{--                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-2 px-md-4">Become A Volunteer</a></p>--}}
+                            {{--                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-2 px-md-4">Become A Volunteer</a></p>--}}
                         </div>
                     </div>
                 </div>
@@ -183,9 +183,9 @@
             <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-                    <div class="col-md-9 ftco-animate">
-                        <div class="text mt-md-1 w-100 text-center">
-                            {{--                            <h2 class="text-white">Join us online</h2>--}}
+                    <div class="col-md-8 ftco-animate">
+                        <div class="text mt-md-4 w-100 text-center">
+                            <h2>Online Presence</h2>
                             <h1 class="mb-3">Watch Us Live</h1>
                             <div class="row justify-content-center">
                                 <p class="mb-0"><a href="live" class="btn btn-primary py-3 mt-2 px-4 px-md-4"> <span><i class="fa fa-play"></i></span> Watch Us </a></p>
