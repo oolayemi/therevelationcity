@@ -291,7 +291,6 @@
     </div>
 </section>
 @if($message = Session::get('success'))
-
     <script>
         console.log({{ $message }});
         alert({{ $message }})
