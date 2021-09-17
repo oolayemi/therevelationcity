@@ -170,7 +170,7 @@
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
                     <div class="col-md-8 ftco-animate">
                         <div class="text mt-md-4 w-100 text-center">
-                            <h2>Revelation City Church</h2>
+                            <h2>Revelation City</h2>
                             <h1 class="mb-3">Perfect Church For Imperfect People</h1>
                             <p class="mb-4 pb-3"></p>
                             {{--                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-2 px-md-4">Become A Volunteer</a></p>--}}
