@@ -7,6 +7,12 @@
 
 
   <style>
+      .sticky {
+          background: #012346;
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }
     .ministry .text {
       border-radius: 0 0 10px 10px;
     }
@@ -33,7 +39,7 @@
 
 <body>
 @include('helpers.sociallinks')
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar header ftco-navbar-light" id="myHeader">
     <div class="container">
       <a class="navbar-brand" href="/"><img src="images/logo2.png" height="40" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">

@@ -5,6 +5,13 @@
   <title>Events - RevelationCity</title>
   @include('helpers.header')
   <style>
+      .sticky {
+          background: #012346;
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }
+
     .imgcontainer {
       text-align: center;
       margin: 10px 0 10px 0;
@@ -113,7 +120,7 @@
 
 <body>
   @include('helpers.sociallinks')
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar header ftco-navbar-light" id="myHeader">
     <div class="container">
       <a class="navbar-brand" href="/"><img src="images/logo2.png" height="40" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,7 +129,7 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about" class="nav-link">About</a></li>a
+          <li class="nav-item"><a href="about" class="nav-link">About</a></li>
           <li class="nav-item"><a href="ministries" class="nav-link">Ministries</a></li>
           <li class="nav-item"><a href="sermons" class="nav-link">Sermons</a></li>
           <li class="nav-item active"><a href="events" class="nav-link">Events</a></li>

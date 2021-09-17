@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="{{ asset('css/simplebar.min.css') }}">
 
     <style>
-
+        .sticky {
+            background: #012346;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
         .nav-link.active {
             color: #FCAE18;
         }
@@ -72,7 +77,7 @@
 
 <body>
 @include('helpers.sociallinks')
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light header" id="myHeader">
     <div class="container">
         <a class="navbar-brand" href="/"><img src="images/logo2.png" height="40" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
