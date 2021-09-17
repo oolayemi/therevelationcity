@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                <h2 class="footer-heading mt-2 text-center ftco-animate"><img src="{{ asset('images/logo1.png') }}" height="60" alt=""></h2>
+                <h2 class="footer-heading mt-2 text-center ftco-animate"><img src="{{ asset('images/logo2.png') }}" height="60" alt=""></h2>
 {{--                <p>At Revelation City we want to have this same GENEROUS outlook, using our resources to improve the--}}
 {{--                    quality of lives of people around us and for the furtherance of the Gospel of Christ...</p>--}}
                 <ul class="ftco-footer-social mt-5 p-0 text-center">
