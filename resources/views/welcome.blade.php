@@ -10,6 +10,7 @@
         .padside {
             padding: 0 10px 0 10px;
         }
+
         .imgcontainer {
             text-align: center;
             margin: 10px 0 10px 0;
@@ -184,7 +185,7 @@
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
                     <div class="col-md-9 ftco-animate">
                         <div class="text mt-md-1 w-100 text-center">
-{{--                            <h2 class="text-white">Join us online</h2>--}}
+                            {{--                            <h2 class="text-white">Join us online</h2>--}}
                             <h1 class="mb-3">Watch Us Live</h1>
                             <div class="row justify-content-center">
                                 <p class="mb-0"><a href="live" class="btn btn-primary py-3 mt-2 px-4 px-md-4"> <span><i class="fa fa-play"></i></span> Watch Us </a></p>

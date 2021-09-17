@@ -217,7 +217,7 @@
                                         </div>
                                         <p>{{ $sermon->description }}</p>
                                         <p class="mt-4 btn-customize">
-                                            <a href="{{ $sermon->youtubeLink }}" class="btn btn-primary px-4 py-3 mr-md-2"><span class="fa fa-play"></span> Watch Sermons</a>
+                                            <a href="{{ $sermon->youtubeLink }}" class="btn btn-primary px-4 py-3 mr-md-2 popup-youtube"><span class="fa fa-play"></span> Watch Sermons</a>
                                         </p>
                                     </div>
                                 </div>
