@@ -7,6 +7,29 @@
     @include('helpers.header')
 
     <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            padding: 10px 16px;
+            color: #f1f1f1;
+        }
+
+        .sticky {
+            background: #012346;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .sticky + .content {
+            background: #012346;
+            padding-top: 102px;
+        }
+
+
         .padside {
             padding: 0 10px 0 10px;
         }
@@ -125,8 +148,16 @@
 </head>
 
 <body>
+{{--<div class="top-container">--}}
+{{--    <h1>Scroll Down</h1>--}}
+{{--    <p>Scroll down to see the sticky effect.</p>--}}
+{{--</div>--}}
+
+{{--<div class="header" id="myHeader">--}}
+{{--    <h2>My Header</h2>--}}
+{{--</div>--}}
 @include('helpers.sociallinks')
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light header" id="myHeader">
     <div class="container">
         <a class="navbar-brand" href="/"> <img src="images/logo2.png" height="40" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -602,7 +633,22 @@
         });
     });
 
+</script>
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
 
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
 </script>
 </body>
 

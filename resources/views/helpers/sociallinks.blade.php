@@ -1,4 +1,4 @@
-<div class="wrap">
+<div class="wrap top-container">
     <div class="container">
         <div class="row">
             <div class="col-md-6 d-flex align-items-center">
