@@ -8,6 +8,10 @@
 
     <style>
 
+        .nav-link.active {
+            color: #FCAE18;
+        }
+
         .h2 {
             font-size: 2rem
         }
@@ -139,27 +143,27 @@
                     <!-- Vertical tab navs -->
                     <div class="mb-sm-0 mb-4 pb-sm-0 pb-2" data-simplebar data-simplebar-auto-hide="false">
                         <ul class="nav flex-sm-column flex-nowrap" id="storyTab" role="tablist">
-                            <li class="nav-item">
+                            <li class="nav-item ftco-animate">
                                 <a class="nav-link h2 mb-0 font-weight-black line-height-1 active" href="#vision" id="vision-tab"
                                    data-toggle="tab" role="tab" aria-controls="vision" aria-selected="true">
                                     Vision and Mission
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ftco-animate">
                                 <a class="nav-link h2 mb-0 font-weight-black line-height-1" href="#mission" id="mission-tab"
                                    data-toggle="tab" role="tab" aria-controls="mission" aria-selected="false">
                                     Core Values
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ftco-animate">
                                 <a class="nav-link h2 mb-0 font-weight-black line-height-1" href="#values" id="values-tab"
                                    data-toggle="tab" role="tab" aria-controls="values" aria-selected="false">
                                     Beliefs
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ftco-animate">
                                 <a class="nav-link h2 mb-0 font-weight-black line-height-1" href="#rcacademy" id="rcacademy-tab"
-                                   data-toggle="tab" role="tab" aria-controls="values" aria-selected="false">
+                                   data-toggle="tab" role="tab" aria-controls="rcacademy" aria-selected="false">
                                     RC Academy
                                 </a>
                             </li>
@@ -374,6 +378,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
