@@ -148,7 +148,7 @@
 </nav>
 
 <section class="hero-wrap">
-    <div class="home-slider  owl-carousel padside">
+    <div class="home-slider container owl-carousel padside">
         <div class="slider-item" style="background-image:url({{ asset('images/hands-in-the-air.webp')}})">
             <div class="overlay"></div>
             <div class="container">
