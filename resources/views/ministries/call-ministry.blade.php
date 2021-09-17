@@ -60,7 +60,7 @@
             an intercessor or involve in evangelism. <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Revelation Army </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Revelation Army </span></h5>
             <p class="ml-5 ftco-animate">Revelation Army is a prayer arm of Revelation City. They stand in the gap as spiritual
               powerhouse of the Church and as well intercede for people. An intercessor is one who takes
               up a "burden" that goes far beyond his or her own needs and intentions. God invites us to be
@@ -73,7 +73,7 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4"> Evangelism and Follow Up Team </span></h5>
+            <h5><span class="ml-4"> Evangelism and Follow Up Team </span></h5>
             <p class="ml-5"> One of the assignments of Revelation Army is to pray for the Lord of harvest to send
               laborers and
               bring in the harvest. The duty of the Evangelism and Follow up Team is to go into the field to bring in

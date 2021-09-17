@@ -59,7 +59,7 @@
             service in the Church. <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Sound Control Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Sound Control Team </span></h5>
             <p class="ml-5 ftco-animate">This Team produces the sound that you hear coming out of the speakers
               in all our services and events. They ensure that the sound systems run smoothly with
               no disruptions. They work closely with the Revelation Voices to produce excellent
@@ -67,7 +67,7 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> IT & Media Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> IT & Media Team </span></h5>
             <p class="ml-5 ftco-animate">IT & Media Team is saddled with the responsibility of marketing
               the Church to different audiences, in and outside the Church and organize the IT
               resources effectively. They engage in dynamic publicity of Church activities on social media
@@ -76,7 +76,7 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Visual & Audio Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Visual & Audio Team </span></h5>
             <p class="ml-5 ftco-animate">The Visual and Audio Team is essentially responsible for
               the video and audio recording and editing of the messages preached on Sundays
               and uploading them to our website where it becomes available to a worldwide audience
@@ -84,7 +84,7 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Maintenance Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Maintenance Team </span></h5>
             <p class="ml-5 ftco-animate">This team is in charge is maintenance of equipment, facilities, and
               repairs in the Church. They maintain service record of equipment and ensure they
               are well serviced. First contact point for repairs such as plumbing, leakages,

@@ -71,9 +71,9 @@
 				</button>
 				<div class="collapse navbar-collapse" id="ftco-nav">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-						<li class="nav-item"><a href="sermons" class="nav-link">Sermons</a></li>
-						<li class="nav-item cta"><a href="donate" class="nav-link">Donate</a></li>
+						<li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="/sermons" class="nav-link">Sermons</a></li>
+						<li class="nav-item cta"><a href="/donate" class="nav-link">Donate</a></li>
 					</ul>
 				</div>
 			</div>

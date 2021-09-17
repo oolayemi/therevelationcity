@@ -60,7 +60,7 @@
             and let people know about His love. <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Entrepreneurship Hub </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Entrepreneurship Hub </span></h5>
             <p class="ml-5 ftco-animate">Entrepreneurship Hub of Revelation City is a training/skill development program set up by the Church to
               equip people in our communities with different skill sets. This program avails people with opportunity to establish businesses
               on their own based on the skills they have been trained on.  We use this as a way of impacting our society positively which in turn
@@ -68,14 +68,14 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Revelation education Support Team (REST) </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Revelation education Support Team (REST) </span></h5>
             <p class="ml-5 ftco-animate">We believe that every child deserves good education to become whom God has ordained them to be.
               As a Church we give educational support to students in various ways that will help unleash their hidden potentials.
               We provide basic supports that will put smile on the faces of those who are genuinely in need.</p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Revelation Food Bank </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Revelation Food Bank </span></h5>
             <p class="ml-5 ftco-animate">Revelation Angels is a community helpline project team which supports people through crisis. The team responds
               professionally to the needs of people in our community affected by abuses, addictions, divorces, losses, physical illnesses,
               and any other related cases.  We aim to offer short term support so that individuals or families are empowered and better equipped
@@ -83,14 +83,14 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Revelation Angels </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Revelation Angels </span></h5>
             <p class="ml-5 ftco-animate">Revelation Food Bank provides people in crisis with short term basic food stuff.
               As the name implies, it is a project that is centered around the collection of non-perishable food
               stuffs from donors as well as distributing to those who need them.</p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Medical Outreach Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Medical Outreach Team </span></h5>
             <p class="ml-5 ftco-animate">As a Church we organize medical outreaches periodically to avail people in our community to do basic checks on
               their health status. This will help people understand if there are any potential health issues, they should give attention to early
               enough before escalating into any major problem. It also provides people with the knowledge that will help them to be carrying out certain
@@ -98,7 +98,7 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Transportation & Logistic Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Transportation & Logistic Team </span></h5>
             <p class="ml-5 ftco-animate">This Team engages in social action such as traffic control, transportation, community, and Church sanitations.
               They ensure that our community operates in perfect state of orderliness, cleanliness, and safety</p>
           </div>

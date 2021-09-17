@@ -60,14 +60,14 @@
             atmosphere of worship for people. <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate">Revelation Voices</span></h5>
+            <h5><span class="ml-4 ftco-animate">Revelation Voices</span></h5>
             <p class="ml-5 ftco-animate">This team ensures that there is worship for all the services in the Church.
               The team meets weekly to bring dynamic spirit filled praise and worship for Sunday service
               and other services.</p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Decoration Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Decoration Team </span></h5>
             <p class="ml-5 ftco-animate">This team works on the interior decoration of the Church and
               stage designs. They introduce dynamism to the outlook of the Church and sometimes
               work with the technical team for lightning effects. Once a month the team bring a new
@@ -75,7 +75,7 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Design Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Design Team </span></h5>
             <p class="ml-5 ftco-animate">Design Team are saddled with the responsibility of designing materials for
               media and publications. They engage in dynamic designing and printing of materials that best
               capture the message of any Church event and as well appeal to different audiences. This team meet
@@ -84,7 +84,7 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Acts of David: </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Acts of David: </span></h5>
             <p class="ml-5 ftco-animate">Acts of David is a dancing group of the Church. They communicate the gospel of Christ through choreographies and dances.</p>
           </div>
 

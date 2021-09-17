@@ -59,21 +59,21 @@
             about creating friendly atmosphere for people and making them feel loved and comfortable. <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> The Greeters </span></h5>
+            <h5><span class="ml-4 ftco-animate"> The Greeters </span></h5>
             <p class="ml-5 ftco-animate">This team provides people with the necessary information that will help them take full
               advantage of all the activities prepared for their growth spiritually, physically,
               intellectually by connecting them to church resources. </p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Stewarding Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Stewarding Team </span></h5>
             <p class="ml-5 ftco-animate">The stewarding team ensures that our venues are in good order, organizes
               Church materials, the seating and the general outlook of the Church as well as welcoming people,
               collecting offerings, showing people where to sit and much more. </p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate"> Protocol Team </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Protocol Team </span></h5>
             <p class="ml-5 ftco-animate">This team ensures that all the official procedures or system of rules
               governing affairs of the Pastor, the associate Pastors and the Guest Ministers are
               well coordinated. They are poised with a sense of discipline as well as the ability to be
@@ -81,14 +81,14 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate">	Family Care Team </span></h5>
+            <h5><span class="ml-4 ftco-animate">	Family Care Team </span></h5>
             <p class="ml-5 ftco-animate">In collaboration with the Pastor, this team provides supports and counselling for
               family life related event such as courtship, weddings, pregnant women, naming ceremonies,
               anniversaries, housewarming etc. </p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5>• <span class="ml-4 ftco-animate">	Café Team </span></h5>
+            <h5><span class="ml-4 ftco-animate">	Café Team </span></h5>
             <p class="ml-5 ftco-animate">Our cafe team serve people at our cafe center, they provide small cool
               and refreshing snacks for people sometimes at the end of Sunday service or special
               trainings. </p>

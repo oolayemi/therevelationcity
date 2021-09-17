@@ -7,6 +7,9 @@
     @include('helpers.header')
 
     <style>
+        .padside {
+            padding: 0 10px 0 10px;
+        }
         .imgcontainer {
             text-align: center;
             margin: 10px 0 10px 0;
@@ -49,6 +52,10 @@
 
             .form-control {
                 height: 40px;
+            }
+
+            .padside {
+                padding: 0;
             }
         }
 
@@ -140,14 +147,44 @@
 </nav>
 
 <section class="hero-wrap">
-    <div>
-        <div class="container" style="background-image:url( {{ asset('images/bible-wood.jpg') }} ); background-size: cover;">
-
+    <div class="home-slider  owl-carousel padside">
+        <div class="slider-item" style="background-image:url({{ asset('images/hands-in-the-air.webp')}})">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                    <div class="col-md-8 ftco-animate">
+                        <div class="text mt-md-5 w-100 text-center">
+                            <h2>Transforming Live</h2>
+                            <h1 class="mb-3">Total Surrender to God</h1>
+                            <p class="mb-4 pb-3"></p>
+                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-2 px-md-4">Become A Volunteer</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item" style="background-image:url( {{ asset('images/hand-in-the-air.webp') }})">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                    <div class="col-md-8 ftco-animate">
+                        <div class="text mt-md-5 w-100 text-center">
+                            <h2>Revelation City Church</h2>
+                            <h1 class="mb-3">Perfect Church For Imperfect People</h1>
+                            <p class="mb-4 pb-3"></p>
+                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-2 px-md-4">Become A Volunteer</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item" style="background-image:url( {{ asset('images/bible-wood.jpg') }} ); background-size: cover;">
+            <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
                     <div class="col-md-9 ftco-animate">
-                        <div class="text mt-md-5 w-100 text-center">
-                            <h2 class="text-white">Join us online</h2>
+                        <div class="text mt-md-1 w-100 text-center">
+{{--                            <h2 class="text-white">Join us online</h2>--}}
                             <h1 class="mb-3">Watch Us Live</h1>
                             <div class="row justify-content-center">
                                 <p class="mb-0"><a href="live" class="btn btn-primary py-3 mt-2 px-4 px-md-4"> <span><i class="fa fa-play"></i></span> Watch Us </a></p>
@@ -163,7 +200,12 @@
 <section class="ftco-section ftco-no-pt ftco-no-pb ftco-animate">
     <div class="container mt-5">
         <div class="row d-flex">
-            <div class="col-md-6 pl-md-5">
+            <div class="col-md-5 d-flex">
+                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
+                     style="background-image:url( {{ asset('images/welcome2.jpg') }}); border-radius: 10px;">
+                </div>
+            </div>
+            <div class="col-md-7 pl-md-5">
                 <div class="heading-section mb-4">
                     <h2 class="mb-1">Welcome to Revelation City Church</h2>
                     <span class="subheading mb-3">Connect, Grow and Serve with Us</span>
@@ -182,11 +224,7 @@
                     <p><a href="/about" class="btn btn-primary">Learn More</a></p>
                 </div>
             </div>
-            <div class="col-md-6 d-flex">
-                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
-                     style="background-image:url( {{ asset('images/ministry-4.jpg') }}); border-radius: 10px;">
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
@@ -236,7 +274,8 @@
                     <div class="text">
                         <h4>INVITE SOMEONE TO CHURCH</h4>
                         <span class="subheading">What to expect</span>
-                        It is a great privilege and blessing to be a partaker of God’s amazing Grace by worshipping with us today. It does not end there at all, there is more God intends to do through and
+                        It is a great privilege and blessing to be a partaker of God’s amazing Grace by worshipping with us today. It does not end there at all, there is more God intends to do through
+                        and
                         with you by inviting and bringing friends and families along with you. You are blessed so that your life can be a channel of blessings to others in your community. We encourage
                         <span class="content3">you
                             today to talk to someone about Revelation City Church and be courageous to follow up with them to join us in our service today ordained by God to extend is excess love to them. You
@@ -299,7 +338,7 @@
 
         <div class="item ftco-animate">
             <div class="blog-entry align-self-stretch">
-                <img src="images/theword.jpg" class="block-20" alt="" style="border-radius: 10px 10px 0 0">
+                <img src="images/talk-to-someone.jpg" class="block-20" alt="" style="border-radius: 10px 10px 0 0">
 
                 <div class="text p-3" style="background: #ffffff;">
 
@@ -328,7 +367,7 @@
         <div class="item ftco-animate">
 
             <div class="blog-entry align-self-stretch">
-                <a href="contact" class="block-20" style="background-image: url( {{ asset('images/teaching.png') }} ); border-radius: 10px 10px 0 0"></a>
+                <a href="contact" class="block-20" style="background-image: url( {{ asset('images/attend-church.jpg') }} ); border-radius: 10px 10px 0 0"></a>
 
                 <div class="text p-3" style="background: #ffffff;">
                     <div class="meta mb-2">

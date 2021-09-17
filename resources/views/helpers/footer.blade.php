@@ -5,7 +5,7 @@
                 <h2 class="footer-heading mt-2 text-center ftco-animate"><img src="{{ asset('images/logo1.png') }}" height="60" alt=""></h2>
 {{--                <p>At Revelation City we want to have this same GENEROUS outlook, using our resources to improve the--}}
 {{--                    quality of lives of people around us and for the furtherance of the Gospel of Christ...</p>--}}
-                <ul class="ftco-footer-social p-0 text-center">
+                <ul class="ftco-footer-social mt-5 p-0 text-center">
                     <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
                     <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
                     <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
@@ -36,20 +36,20 @@
                 <ul class="list-unstyled">
                     <li><a href="/" class="py-1 d-block">Home</a></li>
                     <li><a href="about" class="py-1 d-block">About</a></li>
-                    <li><a href="sermons" class="py-1 d-block">Sermons</a></li>
-                    <li><a href="ministries" class="py-1 d-block">Ministries</a></li>
+{{--                    <li><a href="sermons" class="py-1 d-block">Sermons</a></li>--}}
+{{--                    <li><a href="ministries" class="py-1 d-block">Ministries</a></li>--}}
 
-                    <li><a href="blog" class="py-1 d-block">Blog</a></li>
+                    <li><a href="donate" class="py-1 d-block">Donate</a></li>
 
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0 text-center">
                 <h2 class="footer-heading ftco-animate">Have a Questions?</h2>
-                <div class="block-23 mb-2 ">
+                <div class="block-23">
                     <ul>
-                        <li class="mb-2 ftco-animate"> <i class="icon fa fa-map text-center"></i><span class="text">7424 Chivers Crescent SW</span></li>
-                        <li class="mb-2 ftco-animate"> <span> <a href="tel://7804978405"><i class="icon fa fa-phone"></i>7804978405</a></span></li>
-                        <li class="mb-2 ftco-animate"> <span> <a href="mailto:contact@revelationcity.ca"><i class="icon fa fa-paper-plane"></i>contact@revelationcity.ca</a></span> </li>
+                        <li class="mb-3 mt-2 ftco-animate"> <i class="icon fa fa-map text-center"></i><span class="text">7424 Chivers Crescent SW</span></li>
+                        <li class="mb-3 ftco-animate"> <span> <a href="tel://7804978405"><i class="icon fa fa-phone"></i>7804978405</a></span></li>
+                        <li class="mb-3 ftco-animate"> <span> <a href="mailto:contact@revelationcity.ca"><i class="icon fa fa-paper-plane"></i>contact@revelationcity.ca</a></span> </li>
                     </ul>
                 </div>
             </div>
