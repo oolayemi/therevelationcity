@@ -87,7 +87,7 @@
             <h5><span class="ml-4 ftco-animate"> Design Team </span></h5>
             <p class="ml-5 ftco-animate">Design Team are saddled with the responsibility of designing materials for
               media and publications. They engage in dynamic designing and printing of materials that best
-              capture the message of any Church event and as well appeal to different audiences. This team meet
+              capture the message of any Church event and as well appeal to different audiences. This team meets
               to create the design work that you see on the screen on a Sunday, on our website, facility, leaflets,
               training manuals, weekly e-mail, and bulletins.</p>
           </div>

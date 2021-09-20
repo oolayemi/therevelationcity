@@ -18,7 +18,7 @@
         }
 
         .h2 {
-            font-size: 2rem
+            font-size: 1.8rem
         }
 
         .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
@@ -51,10 +51,6 @@
 
         [data-simplebar-horizontal-top] .simplebar-track.simplebar-horizontal {
             top: 0
-        }
-
-        .simplebar-vertical {
-            margin-right: .1875rem
         }
 
         .img, img {
@@ -134,7 +130,7 @@
                         and high commitment to serve God and humanity and we will be very glad if you can connect, grow, and serve with us
                         through any of our service groups. </p>
                     <p>
-                        We have a wide variety of ministries and service engagement through which you can connect to serve with us. Every contribution with genuine
+                        We have a wide variety of ministries and service engagements, matters to God, and we are not too small to serve you. Every contribution with genuine
                         commitment is recognized by us and matters God, which is needed for God to produce great impact in our community.
                         You need to know that you are loved, and you are so special to us and we welcome you with the gifts and talents you have to honor God. We are
                         not too big to recognize you and we are not too small to serve and be served by you.</p>
@@ -142,7 +138,7 @@
             </div>
         </div>
 
-        <div class="col-lg-12 ml-auto">
+        <div class="col-lg-12 ml-auto mt-4">
             <div class="row">
                 <div class="col-sm-4 text-left">
                     <!-- Vertical tab navs -->
@@ -186,7 +182,7 @@
                             <p class="lead ftco-animate">Our God given vision is to transform the lives of people around the world by revelation,
                                 making them heavenly minded and earthly relevant..</p>
                             <div class="heading-section mb-4 ftco-animate">
-                                <h2 class="text-left">OUR VISION</h2>
+                                <h2 class="text-left">OUR MISSION</h2>
                             </div>
                             <p class="lead ftco-animate">Our mission is to evangelize, edify, encourage, equip, and empower people for the discovery and fulfillment of
                                 purpose.</p>
@@ -693,23 +689,6 @@
 <script src="js/theme.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/simplebar.min.js"></script>
-
-{{--  <script>--}}
-{{--      var coll = document.getElementById("collapsible");--}}
-{{--      var i;--}}
-
-{{--      for (i = 0; 1 < coll.length; i++){--}}
-{{--          coll[i].addEventListener("click", function () {--}}
-{{--              this.classList.toggle('active');--}}
-{{--              var content = this.nextElementSibling;--}}
-{{--              if (content.style.display === "block"){--}}
-{{--                  content.style.display = "none";--}}
-{{--              } else {--}}
-{{--                  content.style.display = "block";--}}
-{{--              }--}}
-{{--          });--}}
-{{--      }--}}
-{{--  </script>--}}
 <script>
     window.dataLayer = window.dataLayer || [];
 

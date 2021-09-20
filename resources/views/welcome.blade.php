@@ -220,7 +220,7 @@
                     <span class="subheading mb-3">Connect, Grow and Serve with Us</span>
                     <p>Revelation City Church is a non-denominational Church set up by God to transform lives
                         through the revelation in the teaching and preaching of the undiluted Word of God and empowering
-                        them to fulfill their destinies. Our God-given mandate is to liberate the mind of people from darkness to
+                        people to fulfill their destinies. Our God-given mandate is to liberate the minds of people from darkness to
                         light by making them heavenly minded and earthly relevant (Rev 5:10).</p>
                     <p>At RCC, we believe everyone has a destiny to fulfill which can only be discovered by revelation. We believe
                         that the quickest route to leadership and relevance in life is primarily through service. We have the privilege

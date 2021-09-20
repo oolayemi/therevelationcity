@@ -64,8 +64,8 @@
           <h5 class="mt-3 ftco-animate">The Call Ministry is a ministry that is centered on numerical and spiritual growth of the
             Church. <br>
             It comprises of two major teams that you can serve. This includes prayer and evangelism team.
-            Join any of these teams if you want to grow your prayer life as well as serve in the capacity of
-            an intercessor or involve in evangelism. <br><br></h5>
+              Join any of these teams if you want to grow spiritually, develop or improve your intercessory
+              and evangelism abilities. <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> Revelation Army </span></h5>

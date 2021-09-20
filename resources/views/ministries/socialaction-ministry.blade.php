@@ -61,7 +61,7 @@
           <p>
             <img src="images/social-action.png" alt="" style="border-radius: 10px;" class="img-fluid ftco-animate">
           </p>
-          <h5 class="mt-3 ftco-animate">At Revelation City, we believe that church is not just for a Sunday or to live within four
+          <h5 class="mt-3 ftco-animate">At Revelation City, we believe that church is not just for Sundays or to live within four
             walls of a building. The Bible reveals that God's heart is for those that are hurting, in practical needs and those that do not know
             Him yet. Jesus met our need for salvation. He also fed the hungry, clothed the naked and healed those with physical, mental health,
             emotional and spiritual problems. We believe that church today can follow his example and provide support to those facing difficulties
@@ -76,7 +76,7 @@
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> Revelation education Support Team (REST) </span></h5>
+            <h5><span class="ml-4 ftco-animate"> Revelation Education Support Team (REST) </span></h5>
             <p class="ml-5 ftco-animate">We believe that every child deserves good education to become whom God has ordained them to be.
               As a Church we give educational support to students in various ways that will help unleash their hidden potentials.
               We provide basic supports that will put smile on the faces of those who are genuinely in need.</p>
@@ -84,17 +84,17 @@
 
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> Revelation Food Bank </span></h5>
-            <p class="ml-5 ftco-animate">Revelation Angels is a community helpline project team which supports people through crisis. The team responds
-              professionally to the needs of people in our community affected by abuses, addictions, divorces, losses, physical illnesses,
-              and any other related cases.  We aim to offer short term support so that individuals or families are empowered and better equipped
-              to deal with the demands of their daily lives..</p>
+            <p class="ml-5 ftco-animate">Revelation Food Bank provides people in crisis with short term basic food stuff.
+                As the name implies, it is a project that is centered around the collection of non-perishable food
+                stuffs from donors as well as distributing to those who need them.</p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> Revelation Angels </span></h5>
-            <p class="ml-5 ftco-animate">Revelation Food Bank provides people in crisis with short term basic food stuff.
-              As the name implies, it is a project that is centered around the collection of non-perishable food
-              stuffs from donors as well as distributing to those who need them.</p>
+            <p class="ml-5 ftco-animate">Revelation Angels is a community helpline project team which supports people through crisis. The team responds
+                professionally to the needs of people in our community affected by abuses, addictions, divorces, losses, physical illnesses,
+                and any other related cases.  We aim to offer short term support so that individuals or families are empowered and better equipped
+                to deal with the demands of their daily lives..</p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
