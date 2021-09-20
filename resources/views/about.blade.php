@@ -130,10 +130,10 @@
                         and high commitment to serve God and humanity and we will be very glad if you can connect, grow, and serve with us
                         through any of our service groups. </p>
                     <p>
-                        We have a wide variety of ministries and service engagements, matters to God, and we are not too small to serve you. Every contribution with genuine
-                        commitment is recognized by us and matters God, which is needed for God to produce great impact in our community.
+                        We have a wide variety of ministries and service engagements through which you can connect to serve with us. Every contribution with genuine
+                        commitment is recognized by us and matters to God, which is needed for God to produce great impact in our community.
                         You need to know that you are loved, and you are so special to us and we welcome you with the gifts and talents you have to honor God. We are
-                        not too big to recognize you and we are not too small to serve and be served by you.</p>
+                        not too big to recognize you and we are not too small to serve you.</p>
                 </div>
             </div>
         </div>
