@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>About - RevelationCity</title>
+    <title>About - Revelation City</title>
     @include('helpers.header')
     <link rel="stylesheet" href="{{ asset('css/simplebar.min.css') }}">
 

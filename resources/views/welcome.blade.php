@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <title>Home - RevelationCity</title>
+    <title>Home - Revelation City</title>
 
     @include('helpers.header')
 

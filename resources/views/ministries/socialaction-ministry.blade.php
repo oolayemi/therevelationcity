@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Ministry - RevelationCity</title>
+  <title>Ministry - Revelation City</title>
     @include('helpers.header')
     <style>
         .sticky {

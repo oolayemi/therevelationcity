@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Admin Login - RevelationCity</title>
+	<title>Admin Login - Revelation City</title>
     @include('helpers.header')
 
 	<link href="css/video-js.css" rel="stylesheet">

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Blog - RevelationCity</title>
+  <title>Blog - Revelation City</title>
   @include('helpers.header')
 
   <style>

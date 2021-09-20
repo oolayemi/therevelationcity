@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Ministries - RevelationCity</title>
+  <title>Ministries - Revelation City</title>
     @include('helpers.header')
 
 

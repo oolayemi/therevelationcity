@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Donate - RevelationCity</title>
+    <title>Donate - Revelation City</title>
     @include('helpers.header')
     <style>
         .sticky {
