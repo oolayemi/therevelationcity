@@ -81,13 +81,13 @@
                     <p>
                         Thank you for partnering with us at Revelation City Church. Your giving enables us to advance God’s Kingdom on earth and reach out to many lives.
                     </p>
-                    <p>
-                        {{--                <span style="color: black; font-weight: bold;">Give Online </span>  (using checking account, e-transfer, debit or credit) <br>--}}
-                        <span style="color: black; font-weight: bold;">Gift Type: </span> One Time/Set up Recurring <br>
-                        <span style="color: black; font-weight: bold;">Frequency: </span> Every week, Every two weeks, Every Month <br>
-                        <span style="color: black; font-weight: bold;">Starting From: </span> Date <br>
-                        <span style="color: black; font-weight: bold;">Purpose: </span> Offering, Tithe, Special Projects <br>
-                    </p>
+{{--                    <p>--}}
+{{--                        <span style="color: black; font-weight: bold;">Give Online </span> (using checking account, e-transfer, debit or credit) <br>--}}
+{{--                        <span style="color: black; font-weight: bold;">Gift Type: </span> One Time/Set up Recurring <br>--}}
+{{--                        <span style="color: black; font-weight: bold;">Frequency: </span> Every week, Every two weeks, Every Month <br>--}}
+{{--                        <span style="color: black; font-weight: bold;">Starting From: </span> Date <br>--}}
+{{--                        <span style="color: black; font-weight: bold;">Purpose: </span> Offering, Tithe, Special Projects <br>--}}
+{{--                    </p>--}}
                     <!-- <p class="mt-4 btn-customize">
                       <a href="https://vimeo.com/45830194" class="btn btn-primary px-4 py-3 mr-md-2 popup-vimeo"><span
                           class="fa fa-play"></span> Watch Sermons</a> <a href="#"
@@ -192,16 +192,16 @@
                     <h4 class="text-bold ftco-animate">E-TRANSFER</h4>
                     <p class="ftco-animate"> &emsp;&ensp; Donate using Interac eTransfer by sending the payment to <a href="mailto:giving@revelationcity.ca">giving@revelationcity.ca </a></p>
                 </div>
-{{--                <br>--}}
-{{--                <div>--}}
-{{--                    <h4 class="text-bold ftco-animate">DONATE ONLINE</h4>--}}
-{{--                    <ul>--}}
-{{--                        <li class="ftco-animate">Gift Amount</li>--}}
-{{--                        <li class="ftco-animate">Gift type in drop down (One time giving, Set up recurring giving)</li>--}}
-{{--                        <li class="ftco-animate">Giving Type (offering, Tithe, special projects, social actions, etc).</li>--}}
-{{--                    </ul>--}}
+                {{--                <br>--}}
+                {{--                <div>--}}
+                {{--                    <h4 class="text-bold ftco-animate">DONATE ONLINE</h4>--}}
+                {{--                    <ul>--}}
+                {{--                        <li class="ftco-animate">Gift Amount</li>--}}
+                {{--                        <li class="ftco-animate">Gift type in drop down (One time giving, Set up recurring giving)</li>--}}
+                {{--                        <li class="ftco-animate">Giving Type (offering, Tithe, special projects, social actions, etc).</li>--}}
+                {{--                    </ul>--}}
 
-{{--                </div>--}}
+                {{--                </div>--}}
                 <br><br>
                 <div>
                     <h3 class=" text-center text-bold ftco-animate">SO, WHAT'S NEXT?</h3>
