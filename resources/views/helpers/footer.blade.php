@@ -44,10 +44,11 @@
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0 text-center">
-                <h2 class="footer-heading ftco-animate">Have a Questions?</h2>
+                <h2 class="footer-heading ftco-animate">Any Question?</h2>
                 <div class="block-23">
                     <ul>
-                        <li class="mb-3 mt-2 ftco-animate"> <i class="icon fa fa-map text-center"></i><span class="text">7424 Chivers Crescent SW</span></li>
+                        <li class="mb-3 mt-2 ftco-animate"> <i class="icon fa fa-map text-center"></i><span class="text" style="text-align: left">205, 8311 Chappelle Way SW, Edmonton AB, Canada T6W
+                                3Y8</span></li>
                         <li class="mb-3 ftco-animate"> <span> <a href="tel://7804978405"><i class="icon fa fa-phone"></i>7804978405</a></span></li>
                         <li class="mb-3 ftco-animate"> <span> <a href="mailto:contact@revelationcity.ca"><i class="icon fa fa-paper-plane"></i>contact@revelationcity.ca</a></span> </li>
                     </ul>

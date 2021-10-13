@@ -62,11 +62,10 @@
           <p>
             <img src="images/ministry-5.jpg" alt="" style="border-radius: 10px;" class="img-fluid ftco-animate">
           </p>
-          <h5 class="mt-3 ftco-animate">Creative ministry embodied all the service units in music, entertainment, interior decoration,
+          <h5 class="mt-3 ftco-animate">Creative ministry embodies all the service units in music, entertainment, interior decoration,
             and graphic designs. <br>
-            There are enough service teams under creative ministry that you can explore, join
-            this team if you are passionate about the above-mentioned services in creating good
-            atmosphere of worship for people. <br><br></h5>
+            There are enough service teams under creative ministry that you can explore. Join
+            this team if you are passionate about the above-mentioned services in creating a good atmosphere of worship for the people <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate">Revelation Voices</span></h5>

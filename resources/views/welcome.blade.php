@@ -163,7 +163,7 @@
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
                     <div class="col-md-8 ftco-animate">
                         <div class="text mt-md-4 w-100 text-center">
-                            <h2>Transforming Live</h2>
+                            <h2>Transforming Lives</h2>
                             <h1 class="mb-3">Total Surrender to <br> God</h1>
                             <p class="mb-4 pb-3"></p>
                             {{--                            <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-2 px-md-4">Become A Volunteer</a></p>--}}
@@ -218,13 +218,15 @@
                 <div class="heading-section mb-4">
                     <h2 class="mb-1">Welcome to Revelation City Church</h2>
                     <span class="subheading mb-3">Connect, Grow and Serve with Us</span>
-                    <p>Revelation City Church is a non-denominational Church set up by God to transform lives
-                        through the revelation in the teaching and preaching of the undiluted Word of God and empowering
-                        people to fulfill their destinies. Our God-given mandate is to liberate the minds of people from darkness to
-                        light by making them heavenly minded and earthly relevant (Rev 5:10).</p>
-                    <p>At RCC, we believe everyone has a destiny to fulfill which can only be discovered by revelation. We believe
-                        that the quickest route to leadership and relevance in life is primarily through service. We have the privilege
-                        and high commitment to serve......</p>
+                    <p>Revelation City Church is a non-denominational, family-oriented church, ordained by God to bring many
+                        people to the Kingdom of God by transforming them through the revelation in the teaching and preaching
+                        of the undiluted word of God and empowering them to fulfill their destinies. We believe every life has
+                        a destiny to fulfill which can only be discovered by revelation. We have the mandate from God to liberate
+                        the minds of people from the darkness of this world into the marvelous light of God by making them heavenly
+                        minded and earthly relevant (Rev 5:10).</p>
+                    <p>At RCC, We believe that the quickest route to leadership and relevance in life is primarily through service. We have the privilege
+                        and high commitment to serve God and humanity and we will be very glad if you can connect, grow, and serve with us
+                        through any of our service groups. </p>
                     {{--            <p>--}}
                     {{--                We have a wide variety of ministries and service engagement through which you can connect to serve with us. Every contribution with genuine--}}
                     {{--                commitment is recognized by us and matters God, which is needed for God to produce great impact in our community.--}}
@@ -285,12 +287,12 @@
                         <span class="subheading">What to expect</span>
                         It is a great privilege and blessing to be a partaker of God’s amazing Grace by worshipping with us today. It does not end there at all, there is more God intends to do through
                         and
-                        with you by inviting and bringing friends and families along with you. You are blessed so that your life can be a channel of blessings to others in your community. We encourage
+                        with you by inviting and bringing friends and families along with you. You are blessed so that your life can be a channel of blessing to others in your community. We encourage
                         <span class="content3">you
-                            today to talk to someone about Revelation City Church and be courageous to follow up with them to join us in our service today ordained by God to extend is excess love to them. You
-                            can click the INVITES button to print out any service invite card of your choice. God bless you richly.
+                            today to talk to someone about Revelation City Church and be courageous to follow up with them to join us in our services ordained by God to extend is excess love to them. You
+                            can click the INVITE button to print out any service invite card of your choice. God bless you richly.
                             <br> <button class="form-control btn btn-primary bg-secondary mt-2">Download Invite</button>
-                </span>
+                        </span>
                         <div class="header3 text-left"><span>read more...</span></div>
                     </div>
                 </div>
@@ -357,7 +359,7 @@
 
                     </div>
 
-                    We know sometimes life’s issue may be difficult for us to deal with alone and that is why it is very important to belong to a family that cares and gives a support we
+                    We know sometimes life issues may be difficult for us to deal with alone and that is why it is very important to belong to a family that cares and gives the support we
                     desire especially during our challenging seasons. At Revelation City Church, we have qualified,
                     <span class="content5">
                   and professional counselors endowed with the Grace of God to take you through step by
@@ -457,7 +459,7 @@
                     @endforeach
 
             </div>
-            <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermon </a></p>
+            <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermons </a></p>
 
             @else
                 <h2 class="my-5 text-center col-md-12 ftco-animate">No sermons added yet</h2>
@@ -475,7 +477,8 @@
                 <h2>“Pray! And listen to God! You can do this alone, but find somebody to do it with you”</h2>
                 <h6 style='color: beige; font-style: italic;'>"For God so LOVED the world that He GAVE His only begotten Son, that whoever
                     <br>
-                    believes in Him should not perish but have everlasting life"
+                    believes in Him should not perish but have everlasting life" <br>
+                    John 3:16
                 </h6>
                 <p class="mb-0 mt-5	"><a href="donate" class="btn btn-primary py-3 px-2 px-md-4" style="border-radius: 10px;"> Donate </a></p>
 

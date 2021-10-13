@@ -64,13 +64,13 @@
           <h5 class="mt-3 ftco-animate">At Revelation City, we believe that church is not just for Sundays or to live within four
             walls of a building. The Bible reveals that God's heart is for those that are hurting, in practical needs and those that do not know
             Him yet. Jesus met our need for salvation. He also fed the hungry, clothed the naked and healed those with physical, mental health,
-            emotional and spiritual problems. We believe that church today can follow his example and provide support to those facing difficulties
+            emotional and spiritual problems. We believe that church today can follow his example and provide support to those experiencing difficulties
             and let people know about His love. <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> Entrepreneurship Hub </span></h5>
             <p class="ml-5 ftco-animate">Entrepreneurship Hub of Revelation City is a training/skill development program set up by the Church to
-              equip people in our communities with different skill sets. This program avails people with opportunity to establish businesses
+              equip people in our communities with different skill sets. This program avails people with the opportunity to establish businesses
               on their own based on the skills they have been trained on.  We use this as a way of impacting our society positively which in turn
               generate a spillover effect of job creation.</p>
           </div>
@@ -92,7 +92,7 @@
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> Revelation Angels </span></h5>
             <p class="ml-5 ftco-animate">Revelation Angels is a community helpline project team which supports people through crisis. The team responds
-                professionally to the needs of people in our community affected by abuses, addictions, divorces, losses, physical illnesses,
+                professionally to the needs of people in our community affected by abuses, addictions, divorce, losses, physical illnesses,
                 and any other related cases.  We aim to offer short term support so that individuals or families are empowered and better equipped
                 to deal with the demands of their daily lives..</p>
           </div>
@@ -108,7 +108,7 @@
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> Transportation & Logistic Team </span></h5>
             <p class="ml-5 ftco-animate">This Team engages in social action such as traffic control, transportation, community, and Church sanitations.
-              They ensure that our community operates in perfect state of orderliness, cleanliness, and safety</p>
+              They ensure that our church community operates in perfect state of orderliness, cleanliness, and safety</p>
           </div>
 
 

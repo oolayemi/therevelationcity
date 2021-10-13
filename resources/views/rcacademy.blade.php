@@ -69,7 +69,7 @@
         <div class="col-md-6 pl-md-5 ftco-animate text-left">
           <div class="heading-section mb-4">
             <h2>WE WELCOME YOU</h2>
-              <p>This is a spiritual and resourceful development school targets at raising leaders spiritually and otherwise. It is a development process organized to build people up from our various
+              <p>This is a spiritual and resourceful development school that targets raising leaders spiritually and otherwise. It is a development process organized to build people up from our various
                   spheres of loyalty and to connect their spiritual experience in church with the reality of their daily lives. It is our empowerment and training programme set up to help people
                   explore faith in God and to help discover, develop and deploy leaders in their areas of influence. Through these trainings, the vision of the church is communicated. And it runs
                   from 100 Level to 400 Level.</p>

@@ -61,9 +61,9 @@
           <p>
             <img src="images/technical-ministry.jpg" alt="" style="border-radius: 10px;" class="img-fluid ftco-animate">
           </p>
-          <h5 class="mt-3 ftco-animate">Technical Ministry embodied all the service units in technical and media.
+          <h5 class="mt-3 ftco-animate">Technical Ministry embodies all the service units in technical and media.
             There are enough service teams under this ministry that you can explore. Join this team if
-            you are technically skilled or ready to learn new skill to help improve the quality of
+            you are technically skilled or ready to learn a new skill to help improve the quality of
             service in the Church. <br><br></h5>
 
           <div class="ml-3 mt-4 ftco-animate">
@@ -93,7 +93,7 @@
 
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> Maintenance Team </span></h5>
-            <p class="ml-5 ftco-animate">This team is in charge is maintenance of equipment, facilities, and
+            <p class="ml-5 ftco-animate">This team is in charge of maintenance of equipment, facilities, and
               repairs in the Church. They maintain service record of equipment and ensure they
               are well serviced. First contact point for repairs such as plumbing, leakages,
               network routing and connections, electrical and mechanical services. </p>

@@ -121,12 +121,13 @@
             <div class="col-md-6 pl-md-5 ftco-animate text-left">
                 <div class="heading-section mb-4">
                     <h2>WE WELCOME YOU</h2>
-                    <p>Revelation City Church is a non-denominational Church set up by God to transform lives
-                        through the revelation in the teaching and preaching of the undiluted Word of God and empowering
-                        them to fulfill their destinies. Our God-given mandate is to liberate the mind of people from darkness to
-                        light by making them heavenly minded and earthly relevant (Rev 5:10).</p>
-                    <p>At RCC, we believe everyone has a destiny to fulfill which can only be discovered by revelation. We believe
-                        that the quickest route to leadership and relevance in life is primarily through service. We have the privilege
+                    <p>Revelation City Church is a non-denominational, family-oriented church, ordained by God to bring many
+                        people to the Kingdom of God by transforming them through the revelation in the teaching and preaching
+                        of the undiluted word of God and empowering them to fulfill their destinies. We believe every life has
+                        a destiny to fulfill which can only be discovered by revelation. We have the mandate from God to liberate
+                        the minds of people from the darkness of this world into the marvelous light of God by making them heavenly
+                        minded and earthly relevant (Rev 5:10).</p>
+                    <p>At RCC, We believe that the quickest route to leadership and relevance in life is primarily through service. We have the privilege
                         and high commitment to serve God and humanity and we will be very glad if you can connect, grow, and serve with us
                         through any of our service groups. </p>
                     <p>
@@ -249,7 +250,7 @@
                                                 <p class="heading">HE IS THE WAY </p>
                                                 <p class="text-left ftco-animate">
                                                     We believe that Jesus is the Way, the Truth and the Life. Jesus Christ is the only way by which
-                                                    we can get to the Father and as many that calls on His name shall be saved.
+                                                    we can get to the Father and as many that call on His name shall be saved.
                                                     <br> <span>(John 14:6, Acts 4:12, Acts 2:21)</span>.
                                                 </p>
                                             </div>
@@ -273,7 +274,7 @@
                                                     We believe that man (Adam) was created in the image of God, having the same creative capacity as God
                                                     before
                                                     Adam and Eve fell, and stripped
-                                                    off of honor through sin and was reconciled back to God on the cross through the blood Jesus Christ
+                                                    off of honor through sin and were reconciled back to God on the cross through the blood Jesus Christ
                                                     <br>
                                                     <span>(Genesis 1:26-31; 2:7, John 19:30)</span>.
                                                 </p>
@@ -293,7 +294,7 @@
                                             <div class="ftco-animate beliefs">
                                                 <p class="heading">DEATH, BURIAL AND RESURRECTION OF JESUS </p>
                                                 <p class="text-left">
-                                                    We believe in the death burial and resurrection of JESUS CHRIST. He died and rose from dead
+                                                    We believe in the death, burial, and resurrection of JESUS CHRIST. He died and rose from the dead
                                                     again after three days and now lives forever more for the redemption of mankind through his blood.
                                                     <br>
                                                     <span>(1 Corinthians 15:4, Colossians 1:13)</span>.
@@ -620,7 +621,7 @@
     <div class="container">
         <div class="row justify-content-center pb-4 mb-2">
             <div class="col-md-7 heading-section text-center ftco-animate">
-                <span class="subheading">Meet out pastor(s)</span>
+                <span class="subheading">Meet our pastor(s)</span>
                 <!-- <h2>Our Pastors</h2> -->
             </div>
         </div>
@@ -647,7 +648,7 @@
                     {{--            <h2>Wale Adeyemo</h2>--}}
                     <p>Wale Adeyemo is a visionary leader whose ministry and calling are towards equipping young minds and families. He is the lead pastor of Revelation City Church, SW Edmonton
                         Canada.
-                        A Pastor with over 20years of experience, a dynamic preacher of the Word of God, excellent speaker , corporate consultant who has influenced and inspired the lives of many
+                        A Pastor with over 20years of experience, a dynamic preacher of the Word of God, excellent speaker, corporate consultant who has influenced and inspired the lives of many
                         around the
                         world positively through his combined knowledge in life, ministry, marriage, career and professional/community services. </p>
 

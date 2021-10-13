@@ -70,16 +70,16 @@
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> The Tweenies </span></h5>
             <p class="ml-5 ftco-animate">The Tweenies are children in preschoolers’ age ranges
-              2-3 years. We do this so that kids in this age bracket can learn things
-              relative to their age and to help their parents concentrate in the adult
-              Church. Every Sunday during sermon we teach the children on a theme from the Bible,
+              2-3 years. We teach kids in this age bracket can learn things relative to their
+              age and to help their parents concentrate in the adult Church. Every Sunday
+              during sermon we teach the children on a theme from the Bible,
               enjoy a good snack and get creative with arty activities.</p>
           </div>
 
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate"> The Minis </span></h5>
-            <p class="ml-5 ftco-animate">The Minis are children in preschoolers’ age range 3-5 years. We do
-              this so that kids in this age bracket can learn things relative to their age and to help
+            <p class="ml-5 ftco-animate">The Minis are children in preschoolers’ age range 3-5 years. We teach
+              kids in this age bracket can learn things relative to their age and to help
               their parents concentrate in the adult Church. Every Sunday during sermon we teach the children on a
               theme from the Bible, enjoy a good snack and get creative with arty activities.</p>
           </div>

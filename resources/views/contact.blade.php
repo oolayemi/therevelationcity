@@ -58,7 +58,7 @@
 	</section>
 	<section class="ftco-section">
 		<div class="container">
-			<h6 class="mb-5 text-center" style="font-weight: bold;">Monday – Thursday: 9am – 5pm </h6>
+			<h6 class="mb-5 text-center" style="font-weight: bold;">Sundays 10am</h6>
 			<div class="row justify-content-center">
 				<div class="col-md-12">
 					<div class="wrapper">
@@ -69,7 +69,7 @@
 										<span class="fa fa-map-marker"></span>
 									</div>
 									<div class="text">
-										<p><span>Address:</span> 7424 Chivers Crescent SW</p>
+										<p><span>Address:</span> 205, 8311 Chappelle Way SW, <br> Edmonton AB, Canada T6W 3Y8.</p>
 									</div>
 								</div>
 							</div>

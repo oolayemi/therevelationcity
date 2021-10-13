@@ -98,9 +98,7 @@
 
           <div class="ml-3 mt-4 ftco-animate">
             <h5><span class="ml-4 ftco-animate">	Café Team </span></h5>
-            <p class="ml-5 ftco-animate">Our cafe team serve people at our cafe center, they provide small cool
-              and refreshing snacks for people sometimes at the end of Sunday service or special
-              trainings. </p>
+            <p class="ml-5 ftco-animate">Our cafe team serve people at our cafe center, they provide refreshments for people at the end of the service. </p>
           </div>
 
 

@@ -55,7 +55,7 @@
 
     <div class="container">
         <div class="heading-section pb-md-5 text-center">
-            <span class="subheading">RevelationCity Church</span>
+            <span class="subheading">Revelation City Church</span>
             <h2 class=" text-center">GET INVOLVED</h2>
             <!-- <span class="h6 mt-0" style="text-transform: none;"> <em> (what we intend to do)</em></span> -->
         </div>
