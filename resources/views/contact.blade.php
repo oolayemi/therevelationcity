@@ -69,7 +69,7 @@
 										<span class="fa fa-map-marker"></span>
 									</div>
 									<div class="text">
-										<p><span>Address:</span> 205, 8311 Chappelle Way SW, <br> Edmonton AB, Canada T6W 3Y8.</p>
+										<p><span>Address:</span> #205, 8311 Chappelle Way SW, <br> Edmonton AB, Canada T6W 3Y8.</p>
 									</div>
 								</div>
 							</div>
