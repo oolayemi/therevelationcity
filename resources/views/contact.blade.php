@@ -43,7 +43,7 @@
 		</div>
 	</nav>
 
-	<section class="hero-wrap hero-wrap-2" style="background-image: url( {{ asset('images/bg_1.jpg') }} );">
+	<section class="hero-wrap hero-wrap-2" style="background-image: url( {{ asset('images/maps.jpg') }} );">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end">
