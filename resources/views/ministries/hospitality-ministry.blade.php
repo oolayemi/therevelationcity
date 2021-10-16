@@ -67,38 +67,38 @@
             There are enough service teams under hospitality ministry that you can belong to if you are passionate
             about creating friendly atmosphere for people and making them feel loved and comfortable. <br><br></h5>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> The Greeters </span></h5>
-            <p class="ml-5 ftco-animate">This team provides people with the necessary information that will help them take full
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> The Greeters </span></h5>
+            <p class="ftco-animate">This team provides people with the necessary information that will help them take full
               advantage of all the activities prepared for their growth spiritually, physically,
               intellectually by connecting them to church resources. </p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> Stewarding Team </span></h5>
-            <p class="ml-5 ftco-animate">The stewarding team ensures that our venues are in good order, organizes
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> Stewarding Team </span></h5>
+            <p class="ftco-animate">The stewarding team ensures that our venues are in good order, organizes
               Church materials, the seating and the general outlook of the Church as well as welcoming people,
               collecting offerings, showing people where to sit and much more. </p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> Protocol Team </span></h5>
-            <p class="ml-5 ftco-animate">This team ensures that all the official procedures or system of rules
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> Protocol Team </span></h5>
+            <p class="ftco-animate">This team ensures that all the official procedures or system of rules
               governing affairs of the Pastor, the associate Pastors and the Guest Ministers are
               well coordinated. They are poised with a sense of discipline as well as the ability to be
               sensitive and respond to the needs of the Pastors during service. </p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate">	Family Care Team </span></h5>
-            <p class="ml-5 ftco-animate">In collaboration with the Pastor, this team provides supports and counselling for
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold">	Family Care Team </span></h5>
+            <p class="ftco-animate">In collaboration with the Pastor, this team provides supports and counselling for
               family life related event such as courtship, weddings, pregnant women, naming ceremonies,
               anniversaries, housewarming etc. </p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate">	Café Team </span></h5>
-            <p class="ml-5 ftco-animate">Our cafe team serve people at our cafe center, they provide refreshments for people at the end of the service. </p>
+          <div class="mt-4 ftco-animate">
+            <h5><span class=" text-bold ftco-animate">	Café Team </span></h5>
+            <p class="ftco-animate">Our cafe team serve people at our cafe center, they provide refreshments for people at the end of the service. </p>
           </div>
 
 

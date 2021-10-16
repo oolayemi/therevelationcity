@@ -67,33 +67,33 @@
             who have the skills and are passionate of taking care of children as well as
             teaching them biblical principles they can grow with.<br><br></h5>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> The Tweenies </span></h5>
-            <p class="ml-5 ftco-animate">The Tweenies are children in preschoolers’ age ranges
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> The Tweenies </span></h5>
+            <p class="ftco-animate">The Tweenies are children in preschoolers’ age ranges
               2-3 years. We teach kids in this age bracket can learn things relative to their
               age and to help their parents concentrate in the adult Church. Every Sunday
               during sermon we teach the children on a theme from the Bible,
               enjoy a good snack and get creative with arty activities.</p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> The Minis </span></h5>
-            <p class="ml-5 ftco-animate">The Minis are children in preschoolers’ age range 3-5 years. We teach
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> The Minis </span></h5>
+            <p class="ftco-animate">The Minis are children in preschoolers’ age range 3-5 years. We teach
               kids in this age bracket can learn things relative to their age and to help
               their parents concentrate in the adult Church. Every Sunday during sermon we teach the children on a
               theme from the Bible, enjoy a good snack and get creative with arty activities.</p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> The Kidz </span></h5>
-            <p class="ml-5 ftco-animate">The Kidz are children from age range of 5 -12 years. Every Sunday
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> The Kidz </span></h5>
+            <p class="ftco-animate">The Kidz are children from age range of 5 -12 years. Every Sunday
               Children explore Bible messages. themes, and heroes in fun and creative ways like drama,
               songs, memory verses, quizzes, and games that help them develop spiritually, morally, and intellectually. </p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> The Teens </span></h5>
-            <p class="ml-5 ftco-animate">These are teenagers from the age range of 13-19 years. Teenagers have high energy with bobbling
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> The Teens </span></h5>
+            <p class="ftco-animate">These are teenagers from the age range of 13-19 years. Teenagers have high energy with bobbling
               and great characters. They want to explore different things, so we design their service in ways that will help
               them channel their energies on productive activities. We help them in the discovery of purpose and how they can respond
               to it early enough. </p>

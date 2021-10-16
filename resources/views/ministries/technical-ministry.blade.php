@@ -66,34 +66,34 @@
             you are technically skilled or ready to learn a new skill to help improve the quality of
             service in the Church. <br><br></h5>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> Sound Control Team </span></h5>
-            <p class="ml-5 ftco-animate">This Team produces the sound that you hear coming out of the speakers
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> Sound Control Team </span></h5>
+            <p class="ftco-animate">This Team produces the sound that you hear coming out of the speakers
               in all our services and events. They ensure that the sound systems run smoothly with
               no disruptions. They work closely with the Revelation Voices to produce excellent
               worship in our services..</p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> IT & Media Team </span></h5>
-            <p class="ml-5 ftco-animate">IT & Media Team is saddled with the responsibility of marketing
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> IT & Media Team </span></h5>
+            <p class="ftco-animate">IT & Media Team is saddled with the responsibility of marketing
               the Church to different audiences, in and outside the Church and organize the IT
               resources effectively. They engage in dynamic publicity of Church activities on social media
               platforms, through email list and on our website. They are responsible for everything that
               gets put up on the screen and for lightings during services.</p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> Visual & Audio Team </span></h5>
-            <p class="ml-5 ftco-animate">The Visual and Audio Team is essentially responsible for
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> Visual & Audio Team </span></h5>
+            <p class="ftco-animate">The Visual and Audio Team is essentially responsible for
               the video and audio recording and editing of the messages preached on Sundays
               and uploading them to our website where it becomes available to a worldwide audience
               to listen and watch the following Tuesdays. </p>
           </div>
 
-          <div class="ml-3 mt-4 ftco-animate">
-            <h5><span class="ml-4 ftco-animate"> Maintenance Team </span></h5>
-            <p class="ml-5 ftco-animate">This team is in charge of maintenance of equipment, facilities, and
+          <div class="mt-4 ftco-animate">
+            <h5><span class="ftco-animate text-bold"> Maintenance Team </span></h5>
+            <p class="ftco-animate">This team is in charge of maintenance of equipment, facilities, and
               repairs in the Church. They maintain service record of equipment and ensure they
               are well serviced. First contact point for repairs such as plumbing, leakages,
               network routing and connections, electrical and mechanical services. </p>
