@@ -249,16 +249,17 @@
                     <div class="text">
                         <h4>Connect</h4>
                         <span class="subheading">Contact Members</span>
-                        Whether you are trying church for the first, coming back to church after a long time, or trying to find a new church, we realize you probably have a lot of questions.
-                        Hopefully, this
-                        page helps. Feel free reach out at any time. We’d love to get to know you. We know there are a lot of questions you like to get answers to as a visitor who is trying to
-                        <span class="content1">connect with Revelation City Church for the first
-                            time, a returnee after a long time absence maybe due to short time relocation or you are trying to get settled in a new Church to engage with as a family. Kindly reach out to us
-                            by clicking the CONNECT button. We would love to know and connect with you
-                            <br> <button class="form-control btn btn-primary bg-secondary mt-2"> <a href="/contact">Connect with Us</a> </button>
-                </span>
+                        Looking for a Church you can call your own, a place of worship where you feel loved and belong as a family of God, kindly connect with us at
+                        Revelation City Church by clicking the CONNECT WITH US button. We'd be very glad to welcome you in, answer all your questions and connect with you.
+                        God bless you
+{{--                        <span class="content1">connect with Revelation City Church for the first--}}
+{{--                            time, a returnee after a long time absence maybe due to short time relocation or you are trying to get settled in a new Church to engage with as a family. Kindly reach out to us--}}
+{{--                            by clicking the CONNECT button. We would love to know and connect with you--}}
+{{--                            <br> <button class="form-control btn btn-primary bg-secondary mt-2"> <a href="/contact">Connect with Us</a> </button>--}}
+{{--                        </span>--}}
+                        <span class="content1"><br> <button class="form-control btn btn-primary bg-secondary mt-2"> <a href="/contact">Connect with Us</a> </button></span>
 
-                        <div class="header1 text-left"><span>read more...</span></div>
+{{--                        <div class="header1 text-left"><span>read more...</span></div>--}}
                     </div>
                 </div>
             </div>
