@@ -267,7 +267,7 @@
                     <div class="icon"><span class="flaticon-love"></span></div>
                     <div class="text">
                         <h4>Our Expression</h4>
-                        <span class="subheading">Beliefs and History</span>
+                        <span class="subheading">Love</span>
                         Our passion is to see lives transformed, faith renewed, and God’s love expressed through the teaching and preaching of the undiluted Word of God as well as through our social
                         service
                         engagement with the community. God’s love towards us is incredibly amazing that it requires nothing from us than to just believe in what He did perfectly for us on the
