@@ -204,7 +204,7 @@
               </div>
               <input type="text" name="location" id="location" class="form-control mt-2" required placeholder="Enter location">
               <input type="text" name="address" id="address" class="form-control mt-2" required placeholder="Enter address">
-              <textarea name="description" id="description" class="form-control mt-2" cols="30" rows="4" maxlength="506" required placeholder="Enter a event description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam</textarea>
+              <textarea name="description" id="description" class="form-control mt-2" cols="30" rows="4" maxlength="506" required placeholder="Enter a event description"></textarea>
               <input type="file" id="poster" name="file" accept="image/*" placeholder="Choose a thumbnail" class="form-control-file mt-2">
                 <div class="progress">
                     <div class="bar"></div >
