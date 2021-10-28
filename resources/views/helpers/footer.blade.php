@@ -40,7 +40,7 @@
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                 <h2 class="footer-heading ftco-animate">WORSHIP GATHERINGS</h2>
 
-                <h6 class="ftco-animate my-2" style="color: #A3A9B0">Worship at the Well at 10:00 AM</h6>
+                <h6 class="ftco-animate my-2" style="color: #A3A9B0">Worship at 10:00 AM on Sundays</h6>
 
                 <div class="block-23">
                     <ul>
