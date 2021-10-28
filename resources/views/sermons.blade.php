@@ -72,6 +72,7 @@
             top: 0;
             color: #fff;
             font-size: 40px;
+            margin-top: 10px;
             font-weight: bold;
         }
 
@@ -180,7 +181,7 @@
                                 <form action="/sermons/{{$sermon->id}}" method="post">
                                     @csrf
                                     <input type="hidden" name="_method" value="DELETE">
-                                    <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: #f7f7f7; border: none; z-index: 99;">&times;</button>
+                                    <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: transparent; border: none; z-index: 99;">&times;</button>
                                 </form>
                             @endif
                             <a href="/sermon/{{$sermon->id}}" class="px-4 py-3 ml-lg-2">
