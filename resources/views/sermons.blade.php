@@ -178,14 +178,45 @@
                         <input type="text" name="title" id="title" placeholder="Enter Sermon title" required class="form-control">
                         <input type="text" name="speaker" placeholder="Enter Speaker name" id="speaker" class="form-control mt-2">
                         <input type="date" name="date" id="date" class="form-control mt-2" required>
-                        <input type="text" name="categories" id="categories" class="form-control mt-2" required placeholder="Enter categories (Separate with comma)">
                         <input type="text" id="youtubeLink" name="youtubeLink" class="form-control mt-2" required placeholder="Paste YouTube embedded video link here">
-                        <textarea name="description" id="description" class="form-control mt-2" cols="30" rows="4" maxlength="256" required placeholder="Enter a short description"></textarea>
                         <button type="submit" class="form-control btn btn-primary mt-3">Add Sermon</button>
                     </div>
                 </form>
             </div>
         @endif
+
+            <div style="background: #f6f6f9; border-radius: 20px; padding: 5px 20px">
+                <div class="row justify-content-right text-center ftco-animate">
+
+                    @if(count($sermons) > 0)
+                        @foreach($sermons as $sermon)
+                            @if (Auth::check() && auth()->user()->role == "admin")
+
+                                <form action="/sermons/{{$sermon->id}}" method="post">
+                                    @csrf
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: none; border: none;">&times;</button>
+                                </form>
+                            @endif
+                            <div class="col-md-4 text-left ftco-animate">
+                                <a href="{{ $sermon->youtubeLink }}" class="px-4 py-3 ml-lg-2 popup-youtube">
+                                    <video poster="{{ asset('images/play2.png')}}" src="{{ $sermon->filepath }}" class="img block-10"
+                                           style="padding: 5px; background-image: url( {{ asset('images/welcome.jpg') }});
+                                               border-radius: 10px;"></video>
+                                </a>
+                                <h6 style="font-weight: bold;">{{ $sermon->title }}</h6>
+                                <h6>{{ $sermon->created_at->format('F j, Y') }}</h6>
+                            </div>
+
+                        @endforeach
+
+                </div>
+                <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermons </a></p>
+
+                @else
+                    <h2 class="my-5 text-center col-md-12 ftco-animate">No sermons added yet</h2>
+                @endif
+            </div>
 
         @if(count($sermons) > 0)
             @foreach($sermons as $sermon)

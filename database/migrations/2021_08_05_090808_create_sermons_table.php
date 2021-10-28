@@ -17,9 +17,9 @@ class CreateSermonsTable extends Migration
             $table->id();
             $table->string("title");
             $table->string("speaker");
-            $table->text("description");
+//            $table->text("description");
             $table->date("date");
-            $table->text("categories");
+//            $table->text("categories");
             $table->string('youtubeLink');
             $table->timestamps();
         });

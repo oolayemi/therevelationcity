@@ -40,8 +40,6 @@ class SermonController extends Controller
             'title' => 'required',
             'speaker' => 'required',
             'date' => 'required',
-            'categories' => 'required',
-            'description' => 'required',
             'youtubeLink' => 'required',
         ]);
 
@@ -49,8 +47,6 @@ class SermonController extends Controller
             'title' => $request->title,
             'speaker' => $request->speaker,
             'date' => $request->date,
-            'categories' => $request->categories,
-            'description' => $request->description,
             'youtubeLink' => $request->youtubeLink,
         ]);
 
