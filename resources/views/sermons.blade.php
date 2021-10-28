@@ -174,16 +174,15 @@
 
                 @if(count($sermons) > 0)
                     @foreach($sermons as $sermon)
-                        @if (Auth::check() && auth()->user()->role == "admin")
-
-                            <form action="/sermons/{{$sermon->id}}" method="post">
-                                @csrf
-                                <input type="hidden" name="_method" value="DELETE">
-                                <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: #f7f7f7; border: none; z-index: 99;">&times;</button>
-                            </form>
-                        @endif
                         <div class="col-md-4 text-left ftco-animate">
-                            <img src="" alt="">
+                            @if (Auth::check() && auth()->user()->role == "admin")
+
+                                <form action="/sermons/{{$sermon->id}}" method="post">
+                                    @csrf
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: #f7f7f7; border: none; z-index: 99;">&times;</button>
+                                </form>
+                            @endif
                             <a href="/sermon/{{$sermon->id}}" class="px-4 py-3 ml-lg-2">
                                 <video src="{{ $sermon->filepath }}" class="img block-10"
                                        style="padding: 5px; background-image: url( {{ asset('images/welcome.jpg') }});
@@ -197,7 +196,6 @@
                         </div>
 
                     @endforeach
-
             </div>
             {{--                <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermons </a></p>--}}
 

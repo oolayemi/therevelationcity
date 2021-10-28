@@ -102,7 +102,7 @@
           <div class="sidebar-box ftco-animate">
             <h3>Other Ministries</h3>
             <div class="block-21 mb-4 d-flex ftco-animate">
-              <a class="blog-img mr-4" style="background-image: url(images/ministry-5.jpg); border-radius: 10px;"></a>
+              <a class="blog-img mr-4" style="background-image: url(images/call-ministry.jpg); border-radius: 10px;"></a>
               <div class="text">
                 <h3 class="heading mb-1"><a href="call-ministry"> CALL MINISTRY </a></h3>
                 <p>The Call Ministry is a ministry that is centered on numerical and spirit..... </p>

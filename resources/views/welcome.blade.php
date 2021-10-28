@@ -442,25 +442,35 @@
 
 
         <div style="background: #f6f6f9; border-radius: 20px; padding: 5px 20px">
-            <div class="row justify-content-right text-center ftco-animate">
+            <div class="row justify-content-right text-center ftco-animate my-2">
 
                 @if(count($sermons) > 0)
                     @foreach($sermons as $sermon)
+                        @if (Auth::check() && auth()->user()->role == "admin")
 
+                            <form action="/sermons/{{$sermon->id}}" method="post">
+                                @csrf
+                                <input type="hidden" name="_method" value="DELETE">
+                                <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: #f7f7f7; border: none; z-index: 99;">&times;</button>
+                            </form>
+                        @endif
                         <div class="col-md-4 text-left ftco-animate">
-                            <a href="{{ $sermon->youtubeLink }}" class="px-4 py-3 ml-lg-2 popup-youtube">
-                                <video poster="{{ asset('images/play2.png')}}" src="{{ $sermon->filepath }}" class="img block-10"
+                            <img src="" alt="">
+                            <a href="/sermon/{{$sermon->id}}" class="px-4 py-3 ml-lg-2">
+                                <video src="{{ $sermon->filepath }}" class="img block-10"
                                        style="padding: 5px; background-image: url( {{ asset('images/welcome.jpg') }});
                                            border-radius: 10px;"></video>
                             </a>
                             <h6 style="font-weight: bold;">{{ $sermon->title }}</h6>
                             <h6>{{ $sermon->created_at->format('F j, Y') }}</h6>
+                            <a href="{{ $sermon->youtubeLink }}" class="py-3 popup-youtube" style="font-size: 11px; font-weight: bold">
+                                WATCH SERMON >>
+                            </a>
                         </div>
 
                     @endforeach
-
             </div>
-            <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermons </a></p>
+            {{--                <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermons </a></p>--}}
 
             @else
                 <h2 class="my-5 text-center col-md-12 ftco-animate">No sermons added yet</h2>

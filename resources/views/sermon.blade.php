@@ -115,13 +115,13 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="ministries" class="nav-link">Ministries</a></li>
-                <li class="nav-item active"><a href="sermons" class="nav-link">Sermons</a></li>
-                <li class="nav-item"><a href="events" class="nav-link">Events</a></li>
-                <li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
-                <li class="nav-item cta"><a href="give" class="nav-link">Give</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/ministries" class="nav-link">Ministries</a></li>
+                <li class="nav-item active"><a href="/sermons" class="nav-link">Sermons</a></li>
+                <li class="nav-item"><a href="/events" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+                <li class="nav-item cta"><a href="/give" class="nav-link">Give</a></li>
             </ul>
         </div>
     </div>
@@ -145,30 +145,73 @@
         <div style="border-radius: 20px; padding: 5px 20px">
             <div class="row justify-content-center text-center ftco-animate my-2">
 
-                <form action="/sermons/{{$sermon->id}}" method="post">
-                    @csrf
-                    <input type="hidden" name="_method" value="DELETE">
-                    <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: #f7f7f7; border: none; z-index: 99;">&times;</button>
-                </form>
-
                 <div class="col-md-9 text-left ftco-animate">
+                    @if (Auth::check() && auth()->user()->role == "admin")
+
+                        <form action="/sermons/{{$sermon->id}}" method="post">
+                            @csrf
+                            <input type="hidden" name="_method" value="DELETE">
+                            <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: #f7f7f7; border: none; z-index: 99;">&times;</button>
+                        </form>
+                    @endif
                     <a href="{{ $sermon->youtubeLink }}" class="px-4 py-3 ml-lg-2 popup-youtube">
                         <video poster="{{ asset('/images/play2.png') }}" src="{{ $sermon->filepath }}" class="img block-10"
                                style="padding: 5px; background-image: url( {{ asset('images/welcome.jpg') }});
                                    border-radius: 10px;"></video>
                     </a>
-                    <div class="text-center">
-                        <h6 style="font-weight: bold;">{{ $sermon->title }}</h6>
-                        <h6>{{ $sermon->created_at->format('F j, Y') }}</h6>
+                    <div class="text-center mt-5">
                         <a href="/sermons" class="py-5 mt-5 text" style="font-size: 11px; font-weight: bold">
                             << Back to sermon
                         </a>
                     </div>
-
                 </div>
-
-
             </div>
+{{--            <div class="col-md-8 ftco-animate">
+                <div class="pt-5 mt-5">
+                    <h3 class="mb-5">0 Comments</h3>
+                    <ul class="comment-list">
+
+                        <li class="comment">
+                            <div class="vcard bio">
+                                <img src="images/person_1.jpg" alt="Image placeholder">
+                            </div>
+                            <div class="comment-body">
+                                <h3>John Doe</h3>
+                                <div class="meta">March 12, 2021 at 24:05pm</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus,
+                                    ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum
+                                    impedit necessitatibus, nihil?</p>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <div class="comment-form-wrap pt-5">
+                        <h3 class="mb-5">Leave a comment</h3>
+                        <form action="#" class="p-5 bg-light">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Website</label>
+                                <input type="url" class="form-control" id="website">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="" id="message" cols="40" rows="14" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>--}}
             {{--                <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermons </a></p>--}}
 
         </div>

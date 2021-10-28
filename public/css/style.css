@@ -11481,7 +11481,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .hero-wrap.hero-wrap-2 {
-    height: 400px
+    height: 450px
 }
 
 .hero-wrap.hero-wrap-2 .overlay {
@@ -12230,6 +12230,7 @@ textarea.form-control {
 
 .footer {
     background-image: url("/images/donate.jpg");
+    background-size: cover;
     position: relative;
     z-index: 0;
     overflow: hidden;
@@ -12312,7 +12313,7 @@ textarea.form-control {
 
 .footer .ftco-footer-social li a {
     background: rgba(255, 255, 255, .1);
-    color: #03468c
+    color: #FFFFFF;
 }
 
 .ftco-footer-social li {

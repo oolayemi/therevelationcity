@@ -57,5 +57,6 @@
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
         </ul>
         <div class="text-center text-white mt-3 ftco-animate"> <em> “……transforming lives by revelation”</em></div>
+        <div class="text-center text-white ftco-animate">© 2021 Revelation City Church</div>
     </div>
 </footer>
