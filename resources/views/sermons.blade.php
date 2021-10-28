@@ -12,6 +12,7 @@
             top: 0;
             width: 100%;
         }
+
         .imgcontainer {
             text-align: center;
             margin: 10px 0 10px 0;
@@ -120,7 +121,7 @@
                 <li class="nav-item"><a href="events" class="nav-link">Events</a></li>
                 <li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
-                <li class="nav-item cta"><a href="donate" class="nav-link">Donate</a></li>
+                <li class="nav-item cta"><a href="give" class="nav-link">Give</a></li>
             </ul>
         </div>
     </div>
@@ -149,23 +150,6 @@
                 </p>
             </div>
             <div id="modal-wrapper" class="modal">
-                <?php
-                if (@$_GET['EmptyForm'] == true) {
-
-                ?>
-                <div class="alert-light text-danger text-center"><?php echo $_GET['EmptyForm']; ?></div>
-                <?php
-                }
-                ?>
-
-                <?php
-                if (@$_GET['InvalidLogin'] == true) {
-
-                ?>
-                <div class="alert-light text-danger text-center"><?php echo $_GET['InvalidLogin']; ?></div>
-                <?php
-                }
-                ?>
                 <form action="{{ route('sermon.store') }}" class="modal-content animate" method="POST" enctype="multipart/form-data">
                     <div class="imgcontainer">
                         <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
@@ -185,86 +169,42 @@
             </div>
         @endif
 
-            <div style="background: #f6f6f9; border-radius: 20px; padding: 5px 20px">
-                <div class="row justify-content-right text-center ftco-animate">
+        <div style="background: #f6f6f9; border-radius: 20px; padding: 5px 20px">
+            <div class="row justify-content-right text-center ftco-animate my-2">
 
-                    @if(count($sermons) > 0)
-                        @foreach($sermons as $sermon)
-                            @if (Auth::check() && auth()->user()->role == "admin")
+                @if(count($sermons) > 0)
+                    @foreach($sermons as $sermon)
+                        @if (Auth::check() && auth()->user()->role == "admin")
 
-                                <form action="/sermons/{{$sermon->id}}" method="post">
-                                    @csrf
-                                    <input type="hidden" name="_method" value="DELETE">
-                                    <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: none; border: none;">&times;</button>
-                                </form>
-                            @endif
-                            <div class="col-md-4 text-left ftco-animate">
-                                <a href="{{ $sermon->youtubeLink }}" class="px-4 py-3 ml-lg-2 popup-youtube">
-                                    <video poster="{{ asset('images/play2.png')}}" src="{{ $sermon->filepath }}" class="img block-10"
-                                           style="padding: 5px; background-image: url( {{ asset('images/welcome.jpg') }});
-                                               border-radius: 10px;"></video>
-                                </a>
-                                <h6 style="font-weight: bold;">{{ $sermon->title }}</h6>
-                                <h6>{{ $sermon->created_at->format('F j, Y') }}</h6>
-                            </div>
-
-                        @endforeach
-
-                </div>
-                <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermons </a></p>
-
-                @else
-                    <h2 class="my-5 text-center col-md-12 ftco-animate">No sermons added yet</h2>
-                @endif
-            </div>
-
-        @if(count($sermons) > 0)
-            @foreach($sermons as $sermon)
-
-                <div class="row no-gutters d-flex sermon-wrap ftco-animate bg-light">
-                    @if ($sermon->id % 2 == 0)
-
-                        <div class="col-md-6 d-flex align-items-stretch ftco-animate">
-                            @else
-
-                                <div class="col-md-6 d-flex align-items-stretch ftco-animate order-md-last">
-                                    @endif
-
-                                    @if (Auth::check() && auth()->user()->role == "admin")
-
-                                        <form action="/sermons/{{$sermon->id}}" method="post">
-                                            @csrf
-                                            <input type="hidden" name="_method" value="DELETE">
-                                            <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: none; border: none;">&times;</button>
-                                        </form>
-                                    @endif
-                                    <img src="images/play2.png" class="img" alt="logo" style="background-image: url( {{ asset('images/welcome.jpg') }} );">
-
-                                    <!-- <a href="#" class="img" style="background-image: url(images/sermon-2.jpg);"></a> -->
-                                </div>
-                                <div class="col-md-6 py-4 py-md-5 ftco-animate d-flex align-items-center">
-                                    <div class="text p-md-5">
-                                        <h2 class="mb-4"><a href="sermon?id={{ $sermon->id }}"> {{ $sermon->title }}</a></h2>
-                                        <div class="meta">
-                                            <p>
-                                                <span>Speaker: <a href="#" class="ptr">{{ $sermon->speaker }}</a></span>
-                                                <span>Categories: <a href="#"> {{ $sermon->categories }}</a></span>
-                                                <span><a href="#">On {{ $sermon->date }}</a></span>
-                                            </p>
-                                        </div>
-                                        <p>{{ $sermon->description }}</p>
-                                        <p class="mt-4 btn-customize">
-                                            <a href="{{ $sermon->youtubeLink }}" class="btn btn-primary px-4 py-3 mr-md-2 popup-youtube"><span class="fa fa-play"></span> Watch Sermons</a>
-                                        </p>
-                                    </div>
-                                </div>
+                            <form action="/sermons/{{$sermon->id}}" method="post">
+                                @csrf
+                                <input type="hidden" name="_method" value="DELETE">
+                                <button type="submit" name="submit" class="delete" title="Delete sermon" style="background: #f7f7f7; border: none; z-index: 99;">&times;</button>
+                            </form>
+                        @endif
+                        <div class="col-md-4 text-left ftco-animate">
+                            <img src="" alt="">
+                            <a href="/sermon/{{$sermon->id}}" class="px-4 py-3 ml-lg-2">
+                                <video src="{{ $sermon->filepath }}" class="img block-10"
+                                       style="padding: 5px; background-image: url( {{ asset('images/welcome.jpg') }});
+                                           border-radius: 10px;"></video>
+                            </a>
+                            <h6 style="font-weight: bold;">{{ $sermon->title }}</h6>
+                            <h6>{{ $sermon->created_at->format('F j, Y') }}</h6>
+                            <a href="{{ $sermon->youtubeLink }}" class="py-3 popup-youtube" style="font-size: 11px; font-weight: bold">
+                                WATCH SERMON >>
+                            </a>
                         </div>
-                        @endforeach
-                    @else
-                        <h2 class="text-center">No sermons, add new</h2>
-                    @endif
 
-                </div>
+                    @endforeach
+
+            </div>
+            {{--                <p class="my-5 text-center"><a href="/sermons" class="btn btn-primary py-2 mb-2 px-2 px-md-4"> View More Sermons </a></p>--}}
+
+            @else
+                <h2 class="my-5 text-center col-md-12 ftco-animate">No sermons added yet</h2>
+            @endif
+        </div>
     </div>
 </section>
 @include('helpers.footer')

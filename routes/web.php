@@ -27,7 +27,7 @@ Route::post('/', [\App\Http\Controllers\GalleryController::class, 'store'])->nam
 Route::view('/about', 'about')->name('about');
 Route::view('/ministries', 'ministries')->name('ministries');
 Route::view('/contact', 'contact')->name('contact');
-Route::view('/donate', 'donate')->name('donate');
+Route::view('/give', 'give')->name('give');
 Route::view('/live', 'live')->name('live');
 Route::view('/rcacademy', 'rcacademy')->name('reacademy');
 

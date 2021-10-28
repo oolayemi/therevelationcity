@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Donate - Revelation City</title>
+    <title>Give - Revelation City</title>
     @include('helpers.header')
     <style>
         .sticky {
@@ -32,7 +32,7 @@
                 <li class="nav-item"><a href="events" class="nav-link">Events</a></li>
                 <li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
-                <li class="nav-item cta"><a href="donate" class="nav-link">Donate</a></li>
+                <li class="nav-item cta"><a href="give" class="nav-link">Give</a></li>
             </ul>
         </div>
     </div>

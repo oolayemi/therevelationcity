@@ -73,7 +73,7 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a href="/about" class="nav-link">About</a></li>
 						<li class="nav-item"><a href="/sermons" class="nav-link">Sermons</a></li>
-						<li class="nav-item cta"><a href="/donate" class="nav-link">Donate</a></li>
+						<li class="nav-item cta"><a href="/give" class="nav-link">Give</a></li>
 					</ul>
 				</div>
 			</div>
