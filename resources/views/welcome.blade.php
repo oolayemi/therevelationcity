@@ -474,7 +474,7 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-md-10 heading-section heading-section-white text-center ftco-animate">
-                <span class="subheading">Donate</span>
+                <span class="subheading">Give</span>
                 <h2>“Pray! And listen to God! You can do this alone, but find somebody to do it with you”</h2>
                 <h6 style='color: beige; font-style: italic;'>"For God so LOVED the world that He GAVE His only begotten Son, that whoever
                     <br>
