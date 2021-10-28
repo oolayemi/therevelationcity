@@ -170,7 +170,7 @@
 								</div>
 							</div>
 							<div class="col-md-4 d-flex align-items-stretch">
-								<div class="info-wrap w-100 p-5 img" style="background-image: url( {{ asset('images/about-3.jpg') }} );">
+								<div class="info-wrap w-100 p-5 img" style="background-image: url( {{ asset('images/about_3.jpg') }} );">
 								</div>
 							</div>
 						</div>
