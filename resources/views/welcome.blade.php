@@ -481,7 +481,7 @@
                     believes in Him should not perish but have everlasting life" <br>
                     John 3:16
                 </h6>
-                <p class="mb-0 mt-5	"><a href="donate" class="btn btn-primary py-3 px-2 px-md-4" style="border-radius: 10px;"> Donate </a></p>
+                <p class="mb-0 mt-5	"><a href="give" class="btn btn-primary py-3 px-2 px-md-4" style="border-radius: 10px;"> Give </a></p>
 
             </div>
 
