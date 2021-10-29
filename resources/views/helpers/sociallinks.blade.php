@@ -12,10 +12,10 @@
             <div class="col-md-6 d-flex justify-content-md-end">
                 <div class="social-media">
                     <p class="mb-0 d-flex">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                        <a href="https://facebook.com/revelationcity1" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
                         <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-                        <a href="https://www.youtube.com/channel/UC30pqO1tD2q9dwX_V0ZS1Xg" class="d-flex align-items-center justify-content-center"><span class="fa fa-youtube"><i class="sr-only">YouTube</i></span></a>
+                        <a href="https://www.instagram.com/revelationcity_church/" target="_blank" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                        <a href="https://www.youtube.com/channel/UC30pqO1tD2q9dwX_V0ZS1Xg" target="_blank" class="d-flex align-items-center justify-content-center"><span class="fa fa-youtube"><i class="sr-only">YouTube</i></span></a>
                     </p>
                 </div>
             </div>

@@ -53,8 +53,9 @@
         </div>
         <ul class="ftco-footer-social mt-5 p-0 text-center">
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
+            <li class="ftco-animate"><a href="https://facebook.com/revelationcity1" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.instagram.com/revelationcity_church/" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa
+            fa-instagram"></span></a></li>
         </ul>
         <div class="text-center text-white mt-3 ftco-animate"> <em> “……transforming lives by revelation”</em></div>
         <div class="text-center text-white ftco-animate">© 2021 Revelation City Church</div>
