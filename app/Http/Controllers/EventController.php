@@ -17,7 +17,7 @@ class EventController extends Controller
     public function index()
     {
         $events = Event::all();
-        return view('events', ['events' => $events ]);
+        return view('events', ['events' => $events]);
     }
 
     /**
@@ -42,34 +42,29 @@ class EventController extends Controller
             'title' => 'required',
             'date' => 'required',
             'starttime' => 'required',
-            'endtime' => 'required',
             'location' => 'required',
-            'address' => 'required',
             'description' => 'required',
 //            'file' => 'required|mimes:mp4,mkv'
         ]);
 
         $filename = str_replace(' ', '-', $request->file->getClientOriginalName());
 
-        if (File::exists(public_path().'/events/'.$filename)){
+        if (File::exists(public_path() . '/events/' . $filename)) {
             $filename = time() . '_' . str_replace(' ', '-', $request->file->getClientOriginalName());
         }
 
         $imagepath = $request->file('file')->storeAs('events', $filename, 'public');
 
-        $event = Event::create([
+        Event::create([
             'title' => $request->title,
             'date' => $request->date,
             'starttime' => $request->starttime,
             'endtime' => $request->endtime,
             'location' => $request->location,
-            'address' => $request->address,
             'description' => $request->description,
             'filename' => $filename,
-            'imagepath' => 'storage/'.$imagepath,
+            'imagepath' => 'storage/' . $imagepath,
         ]);
-
-
 
         return back()->with('success', 'Successfully added event');
     }
@@ -78,7 +73,7 @@ class EventController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -89,7 +84,7 @@ class EventController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -100,8 +95,8 @@ class EventController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -119,7 +114,7 @@ class EventController extends Controller
     {
         $event = Event::find($id);
 
-        if (File::exists($event->imagepath)){
+        if (File::exists($event->imagepath)) {
             File::delete($event->imagepath);
         }
 
