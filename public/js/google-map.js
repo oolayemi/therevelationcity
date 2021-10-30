@@ -10,6 +10,11 @@ function init() {
     };
     var mapElement = document.getElementById('map');
     var map = new google.maps.Map(mapElement, mapOptions);
+    const marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+    });
+
     var addresses = ['#205, 8311 Chappelle Way SW, Edmonton AB, Canada T6W3Y8'];
     for (var x = 0; x < addresses.length; x++) {
         $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address=' + addresses[x] + '&sensor=false', null, function (data) {
