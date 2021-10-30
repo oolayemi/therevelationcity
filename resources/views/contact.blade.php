@@ -203,7 +203,7 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCcZHi9o0i8RKxxSccHb2Us4KTPR1IJiU"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJVfNPFu9KJQzsQxpg_ztCMUOVbqDbMlE"></script>
 {{--    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=true"></script>--}}
     <script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
