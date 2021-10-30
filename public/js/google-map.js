@@ -3,7 +3,7 @@ var google;
 function init() {
     var myLatlng = new google.maps.LatLng(53.400502410233855, -113.59061337004707);
     var mapOptions = {
-        zoom: 18,
+        zoom: 17,
         center: myLatlng,
         scrollwheel: true,
         styles: [{"featureType": "administrative.country", "elementType": "geometry", "stylers": [{"visibility": "simplified"}, {"hue": "#ff0000"}]}]
