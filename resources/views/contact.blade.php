@@ -149,6 +149,8 @@
 															God has been faithful to you. Kindly give the details below.</option>
 														<option value="I accepted Christ for the first time">I accepted Christ for the first time – Tell us about your encounter</option>
 														<option value="I want to be baptized">I want to be baptized – Sign up to get baptized</option>
+														<option value="I want to volunteer">I want to volunteer – please fill in your volunteer details</option>
+														<option value="I want to pre-plan my visit">I want to pre-plan my visit – please fill in details below</option>
 													</select>
 												</div>
 											</div>
