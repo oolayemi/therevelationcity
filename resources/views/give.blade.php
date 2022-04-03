@@ -181,16 +181,16 @@
                 <div>
                     <h4 class="text-bold ftco-animate">BANK TRANSFER</h4>
                     <ul>
-                        <li class="ftco-animate">BANK NAME:</li>
-                        <li class="ftco-animate">ACCOUNT NAME: Revelation City Church</li>
-                        <li class="ftco-animate">ACCOUNT TYPE: Current Account</li>
-                        <li class="ftco-animate">ACCOUNT NUMBER: 11111111</li>
+                        <li class="ftco-animate">ACCOUNT NAME: Revelation City Church, Edmonton Canada</li>
+                        <li class="ftco-animate">BANK NAME: Royal Bank of Canada</li>
+                        <li class="ftco-animate">ACCOUNT TYPE: Chequing</li>
+                        <li class="ftco-animate">ACCOUNT NUMBER:  03294-1005339</li>
                     </ul>
                 </div>
                 <br>
                 <div>
                     <h4 class="text-bold ftco-animate">E-TRANSFER</h4>
-                    <p class="ftco-animate"> &emsp;&ensp; Donate using Interac eTransfer by sending the payment to <a href="mailto:giving@revelationcity.ca">giving@revelationcity.ca </a></p>
+                    <p class="ftco-animate"> &emsp;&ensp; Donate using Interac eTransfer by sending the payment to <a href="mailto:revelationcityed@gmail.com">revelationcityed@gmail.com </a></p>
                 </div>
                 {{--                <br>--}}
                 {{--                <div>--}}

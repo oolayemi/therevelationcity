@@ -58,7 +58,8 @@
 	</section>
 	<section class="ftco-section">
 		<div class="container">
-			<h6 class="mb-5 text-center" style="font-weight: bold;">Sundays 10am</h6>
+			<h6 class="mb-1 text-center" style="font-weight: bold;">Every Sunday at 10am</h6>
+			<h6 class="mb-5 text-center" style="font-weight: bold;">Every Friday at 6pm</h6>
 			<div class="row justify-content-center">
 				<div class="col-md-12">
 					<div class="wrapper">

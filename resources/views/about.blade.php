@@ -657,11 +657,66 @@
                         Global Information Technology Management and a Professional Certificate in Business Analysis in reputable institutions of learning around the world.
                         He is happily married to Debby Adeyemo, a Co-founder/Pastor of Revelation City Church, a teacher, minister of the Gospel of Christ and a Business Analysis professional. They
                         are both
-                        blessed with two wonderful children, Daniel and Peniel.</p>
+                        blessed with two wonderful children, Daniel, Peniel and Janiel.</p>
 
 
                 </div>
             </div>
+        </div>
+        <div class="row justify-content-center px-3">
+            <div class="col-md-7 col-lg-4">
+                <div class="staff ftco-animate">
+                    <div class="img text-right" style="background-image: url( {{ asset('images/pastordebby.jpg') }} );"></div>
+                    <div class="text text-1">
+                        <h3>Pastor Debby Adeyemo</h3>
+                        <span>Co-Founder</span>
+                        <br>
+                        <div class="social-media" style="background-color: #012346; border-radius: 8px;">
+                            <p class="mb-0 d-flex">
+                                <!-- <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-book"><i class="sr-only">About</i></span></a> -->
+                                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-4">
+                <div class="staff ftco-animate">
+                    <div class="img text-right" style="background-image: url( {{ asset('images/pastorwale.jpg') }} );"></div>
+                    <div class="text text-1">
+                        <h3>Pastor Toluwase Lydia Okoh</h3>
+                        <span>Associate Pastor</span>
+                        <br>
+                        <div class="social-media" style="background-color: #012346; border-radius: 8px;">
+                            <p class="mb-0 d-flex">
+                                <!-- <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-book"><i class="sr-only">About</i></span></a> -->
+                                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{{--            <div class="col-md-6 pl-md-5 text-left ftco-animate">--}}
+{{--                <div class="heading-section mb-4 mt-2">--}}
+{{--                    --}}{{--            <h2>Wale Adeyemo</h2>--}}
+{{--                    <p>Wale Adeyemo is a visionary leader whose ministry and calling are towards equipping young minds and families. He is the lead pastor of Revelation City Church, SW Edmonton--}}
+{{--                        Canada.--}}
+{{--                        A Pastor with over 20years of experience, a dynamic preacher of the Word of God, excellent speaker, corporate consultant who has influenced and inspired the lives of many--}}
+{{--                        around the--}}
+{{--                        world positively through his combined knowledge in life, ministry, marriage, career and professional/community services. </p>--}}
+
+{{--                    --}}{{--            <p class="mb-0 mt-4"> <a href="/contact" class="btn btn-primary py-3 px-2 px-md-4" style="border-radius: 10px;"> Reach more </a></p>--}}
+{{--                    <p> A certified Project manager and professional business analyst who holds a Bachelor’s degree in both Physics/Electronics and Business Information Technology, a Masters degree in--}}
+{{--                        Global Information Technology Management and a Professional Certificate in Business Analysis in reputable institutions of learning around the world.--}}
+{{--                        He is happily married to Debby Adeyemo, a Co-founder/Pastor of Revelation City Church, a teacher, minister of the Gospel of Christ and a Business Analysis professional. They--}}
+{{--                        are both--}}
+{{--                        blessed with two wonderful children, Daniel, Peniel and Janiel.</p>--}}
+
+
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
     </div>
 </section>
