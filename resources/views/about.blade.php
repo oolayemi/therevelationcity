@@ -683,7 +683,7 @@
             </div>
             <div class="col-md-7 col-lg-4">
                 <div class="staff ftco-animate">
-                    <div class="img text-right" style="background-image: url( {{ asset('images/pastorwale.jpg') }} );"></div>
+                    <div class="img text-right" style="background-image: url( {{ asset('images/pastorlydia.jpg') }} );"></div>
                     <div class="text text-1">
                         <h3>Pastor Toluwase Lydia Okoh</h3>
                         <span>Associate Pastor</span>
